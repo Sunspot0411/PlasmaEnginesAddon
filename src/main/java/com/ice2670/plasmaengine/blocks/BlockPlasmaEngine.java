@@ -20,9 +20,9 @@ import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
-import valkyrienwarfare.addon.control.tileentity.TileEntityPropellerEngine;
-import valkyrienwarfare.api.IBlockForceProvider;
-import valkyrienwarfare.api.Vector;
+
+import valkyrienwarfare.deprecated_api.IBlockForceProvider;
+import valkyrienwarfare.math.Vector;
 import valkyrienwarfare.physics.management.PhysicsWrapperEntity;
 
 import java.util.Random;
@@ -59,6 +59,11 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
     public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state)
     {
         return new ItemStack(BlockInit.BLOCK_PLASMAENGINE);
+    }
+
+    @Override
+    public boolean shouldLocalForceBeRotated(World world, BlockPos blockPos, IBlockState iBlockState, double v) {
+        return true;
     }
 
     @Override
