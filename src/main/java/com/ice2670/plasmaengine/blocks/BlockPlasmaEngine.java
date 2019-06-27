@@ -38,7 +38,7 @@ import java.util.Random;
  */
 public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider, ITileEntityProvider {
     public static final PropertyDirection FACING = BlockHorizontal.FACING;
-    private String[] lore;
+
 
     public BlockPlasmaEngine(String name)
     {
@@ -96,7 +96,7 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
     public TileEntity createNewTileEntity(World worldIn, int meta) {
         new Vector(1.0D, 0.0D, 0.0D);
         IBlockState state = this.getStateFromMeta(meta);
-        return new TileEntityPlasmaEngine(new Vector((EnumFacing)state.getValue(FACING)), true, 6000D);
+        return new TileEntityPlasmaEngine(new Vector((EnumFacing)state.getValue(FACING)), true, 4000D);
     }
 
     public Vector getBlockForceInShipSpace(World world, BlockPos pos, IBlockState state, Entity shipEntity, double secondsToApply) {
@@ -107,8 +107,10 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
         } else {
             TileEntity tileEntity = world.getTileEntity(pos);
             if(tileEntity instanceof TileEntityPlasmaEngine) {
-                ((TileEntityPlasmaEngine)tileEntity).setEnginepower2(world,pos,state);
+                ((TileEntityPlasmaEngine)tileEntity).setBlockPos(world,pos,state);
+                ((TileEntityPlasmaEngine)tileEntity).setMaxThrust(4000D);
                 ((TileEntityPlasmaEngine)tileEntity).updateTicksSinceLastRecievedSignal();
+                ((TileEntityPlasmaEngine)tileEntity).setThrustMultiplierGoal(1D);
                 return ((TileEntityPlasmaEngine)tileEntity).getForceOutputUnoriented(secondsToApply, ((PhysicsWrapperEntity)shipEntity).getPhysicsObject());
             } else {
                 return acting;

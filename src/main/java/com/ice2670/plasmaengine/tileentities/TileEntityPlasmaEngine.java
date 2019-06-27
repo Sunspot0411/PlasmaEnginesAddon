@@ -20,9 +20,9 @@ import static com.ice2670.plasmaengine.blocks.BlockPlasmaEngine.FACING;
  */
 public class TileEntityPlasmaEngine extends BasicForceNodeTileEntity
 {
-    public int enginepower = 1;
-    public double enginepower2;
-    private Vector normalVelocityUnoriented;
+    private World entityworld;
+    private BlockPos entitypos;
+    private IBlockState blockstate;
 
     private IBlockState getState() {
         return world.getBlockState(pos);
@@ -33,18 +33,19 @@ public class TileEntityPlasmaEngine extends BasicForceNodeTileEntity
     }
 
     public TileEntityPlasmaEngine(Vector normalVeclocityUnoriented, boolean isForceOutputOriented, double maxThrust) {
-        super(normalVeclocityUnoriented,isForceOutputOriented,maxThrust);
+        super(normalVeclocityUnoriented, isForceOutputOriented, maxThrust);
+
     }
 
-    public void setEnginepower2(World worldIn, BlockPos pos, IBlockState state){
-        this.enginepower2=enginepower;
+    public void setBlockPos(World worldIn, BlockPos pos, IBlockState state){
+        this.entityworld = worldIn;
+        this.entitypos = pos;
+        this.blockstate = state;
     }
-
-
-
 
     @Override
-    public double getThrustMultiplierGoal() {
-        return enginepower2;
+    public void setMaxThrust(double maxThrust) {
+        super.maxThrust = 8000D;
+
     }
 }
