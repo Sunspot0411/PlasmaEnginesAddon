@@ -21,7 +21,7 @@ import static com.ice2670.plasmaengine.blocks.BlockPlasmaEngine.FACING;
 public class TileEntityPlasmaEngine extends BasicForceNodeTileEntity
 {
     public int enginepower = 1;
-    public int enginepower2;
+    public double enginepower2;
     private Vector normalVelocityUnoriented;
 
     private IBlockState getState() {
@@ -37,17 +37,15 @@ public class TileEntityPlasmaEngine extends BasicForceNodeTileEntity
         this.normalVelocityUnoriented = normalVeclocityUnoriented;
     }
 
-
-    public void getEnginePower(World worldIn, BlockPos pos, IBlockState state) {
-        EnumFacing enumfacing = (EnumFacing) state.getValue(FACING);
-
-        enginepower2 = enginepower;
+    public void setEnginepower2(World worldIn, BlockPos pos, IBlockState state){
+        this.enginepower2=enginepower;
     }
 
 
-    @Override
-    public Vector getForceOutputUnoriented(double secondsToApply, PhysicsObject physicsObject) {
 
-        return this.normalVelocityUnoriented.getProduct(4000D*enginepower2 * secondsToApply);
+
+    @Override
+    public double getThrustMultiplierGoal() {
+        return enginepower2;
     }
 }

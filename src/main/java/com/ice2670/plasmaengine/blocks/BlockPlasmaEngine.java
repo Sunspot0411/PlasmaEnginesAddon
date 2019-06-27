@@ -11,6 +11,7 @@ import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.Item;
@@ -21,10 +22,15 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
+import valkyrienwarfare.addon.control.tileentity.TileEntityPropellerEngine;
 import valkyrienwarfare.deprecated_api.IBlockForceProvider;
 import valkyrienwarfare.math.Vector;
+import valkyrienwarfare.mod.coordinates.VectorImmutable;
 import valkyrienwarfare.physics.management.PhysicsWrapperEntity;
 
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -32,6 +38,7 @@ import java.util.Random;
  */
 public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider, ITileEntityProvider {
     public static final PropertyDirection FACING = BlockHorizontal.FACING;
+    private String[] lore;
 
     public BlockPlasmaEngine(String name)
     {
@@ -100,12 +107,22 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
         } else {
             TileEntity tileEntity = world.getTileEntity(pos);
             if(tileEntity instanceof TileEntityPlasmaEngine) {
-                ((TileEntityPlasmaEngine)tileEntity).getEnginePower(world,pos,state);
+                ((TileEntityPlasmaEngine)tileEntity).setEnginepower2(world,pos,state);
                 ((TileEntityPlasmaEngine)tileEntity).updateTicksSinceLastRecievedSignal();
                 return ((TileEntityPlasmaEngine)tileEntity).getForceOutputUnoriented(secondsToApply, ((PhysicsWrapperEntity)shipEntity).getPhysicsObject());
             } else {
                 return acting;
             }
+        }
+    }
+
+    public Vector getCustomBlockForcePosition(World world, BlockPos pos, IBlockState state, Entity shipEntity, double secondsToApply) {
+        TileEntityPropellerEngine engineTile = (TileEntityPropellerEngine)world.getTileEntity(pos);
+        if(engineTile != null) {
+            VectorImmutable forceOutputNormal = engineTile.getForceOutputNormal(secondsToApply, ((PhysicsWrapperEntity)PhysicsWrapperEntity.class.cast(shipEntity)).getPhysicsObject());
+            return new Vector((double)pos.getX() + 0.5D - forceOutputNormal.getX() * 0.75D, (double)pos.getY() + 0.5D - forceOutputNormal.getY() * 0.75D, (double)pos.getZ() + 0.5D - forceOutputNormal.getZ() * 0.75D);
+        } else {
+            return null;
         }
     }
 
