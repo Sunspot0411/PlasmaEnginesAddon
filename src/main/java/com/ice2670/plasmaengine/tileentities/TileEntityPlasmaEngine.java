@@ -32,9 +32,8 @@ public class TileEntityPlasmaEngine extends BasicForceNodeTileEntity
         super();
     }
 
-    public TileEntityPlasmaEngine(Vector normalVeclocityUnoriented, boolean isForceOutputOriented) {
-        this();
-        this.normalVelocityUnoriented = normalVeclocityUnoriented;
+    public TileEntityPlasmaEngine(Vector normalVeclocityUnoriented, boolean isForceOutputOriented, double maxThrust) {
+        super(normalVeclocityUnoriented,isForceOutputOriented,maxThrust);
     }
 
     public void setEnginepower2(World worldIn, BlockPos pos, IBlockState state){

@@ -96,7 +96,7 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
     public TileEntity createNewTileEntity(World worldIn, int meta) {
         new Vector(1.0D, 0.0D, 0.0D);
         IBlockState state = this.getStateFromMeta(meta);
-        return new TileEntityPlasmaEngine(new Vector((EnumFacing)state.getValue(FACING)), true);
+        return new TileEntityPlasmaEngine(new Vector((EnumFacing)state.getValue(FACING)), true, 6000D);
     }
 
     public Vector getBlockForceInShipSpace(World world, BlockPos pos, IBlockState state, Entity shipEntity, double secondsToApply) {
