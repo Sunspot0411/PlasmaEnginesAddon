@@ -22,15 +22,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-import valkyrienwarfare.addon.control.tileentity.TileEntityPropellerEngine;
+import valkyrienwarfare.addon.control.nodenetwork.BasicForceNodeTileEntity;
 import valkyrienwarfare.deprecated_api.IBlockForceProvider;
 import valkyrienwarfare.math.Vector;
 import valkyrienwarfare.mod.coordinates.VectorImmutable;
 import valkyrienwarfare.physics.management.PhysicsWrapperEntity;
 
-import javax.annotation.Nullable;
-import java.util.Collections;
-import java.util.List;
 import java.util.Random;
 
 /**
@@ -82,7 +79,7 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
             IBlockState south = worldIn.getBlockState(pos.south());
             IBlockState west = worldIn.getBlockState(pos.west());
             IBlockState east = worldIn.getBlockState(pos.east());
-            EnumFacing face = (EnumFacing)state.getValue(FACING);
+            EnumFacing face = state.getValue(FACING);
 
             if (face == EnumFacing.NORTH && north.isFullBlock() && !south.isFullBlock()) face = EnumFacing.SOUTH;
             else if (face == EnumFacing.SOUTH && south.isFullBlock() && !north.isFullBlock()) face = EnumFacing.NORTH;
@@ -96,19 +93,20 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
     public TileEntity createNewTileEntity(World worldIn, int meta) {
         new Vector(1.0D, 0.0D, 0.0D);
         IBlockState state = this.getStateFromMeta(meta);
-        return new TileEntityPlasmaEngine(new Vector((EnumFacing)state.getValue(FACING)), true, 4000D);
+        return new TileEntityPlasmaEngine(new Vector(state.getValue(FACING)), true, 4000D);
     }
 
+    @Override
     public Vector getBlockForceInShipSpace(World world, BlockPos pos, IBlockState state, Entity shipEntity, double secondsToApply) {
-        EnumFacing enumfacing = (EnumFacing)state.getValue(FACING);
+        EnumFacing facing = state.getValue(FACING);
         Vector acting = new Vector(0.0D, 0.0D, 0.0D);
-        if(!world.isBlockPowered(pos)) {
+        if (!world.isBlockPowered(pos)) {
             return acting;
         } else {
             TileEntity tileEntity = world.getTileEntity(pos);
             if(tileEntity instanceof TileEntityPlasmaEngine) {
                 ((TileEntityPlasmaEngine)tileEntity).setBlockPos(world,pos,state);
-                ((TileEntityPlasmaEngine)tileEntity).setMaxThrust(4000D);
+                ((TileEntityPlasmaEngine)tileEntity).setMaxThrust(40000D);
                 ((TileEntityPlasmaEngine)tileEntity).updateTicksSinceLastRecievedSignal();
                 ((TileEntityPlasmaEngine)tileEntity).setThrustMultiplierGoal(1D);
                 return ((TileEntityPlasmaEngine)tileEntity).getForceOutputUnoriented(secondsToApply, ((PhysicsWrapperEntity)shipEntity).getPhysicsObject());
@@ -119,9 +117,10 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
     }
 
     public Vector getCustomBlockForcePosition(World world, BlockPos pos, IBlockState state, Entity shipEntity, double secondsToApply) {
-        TileEntityPropellerEngine engineTile = (TileEntityPropellerEngine)world.getTileEntity(pos);
-        if(engineTile != null) {
-            VectorImmutable forceOutputNormal = engineTile.getForceOutputNormal(secondsToApply, ((PhysicsWrapperEntity)PhysicsWrapperEntity.class.cast(shipEntity)).getPhysicsObject());
+        TileEntity engineTile = world.getTileEntity(pos);
+
+        if (engineTile instanceof BasicForceNodeTileEntity) {
+            VectorImmutable forceOutputNormal = ((BasicForceNodeTileEntity) engineTile).getForceOutputNormal(secondsToApply, ((PhysicsWrapperEntity) shipEntity).getPhysicsObject());
             return new Vector((double)pos.getX() + 0.5D - forceOutputNormal.getX() * 0.75D, (double)pos.getY() + 0.5D - forceOutputNormal.getY() * 0.75D, (double)pos.getZ() + 0.5D - forceOutputNormal.getZ() * 0.75D);
         } else {
             return null;
@@ -170,7 +169,7 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
     @Override
     public IBlockState getStateFromMeta(int meta)
     {
-        EnumFacing facing = EnumFacing.getFront(meta);
+        EnumFacing facing = EnumFacing.byIndex(meta);
         if(facing.getAxis() == EnumFacing.Axis.Y) facing = EnumFacing.NORTH;
         return this.getDefaultState().withProperty(FACING, facing);
     }

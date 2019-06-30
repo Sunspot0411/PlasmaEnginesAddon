@@ -45,7 +45,7 @@ public class TileEntityPlasmaEngine extends BasicForceNodeTileEntity
 
     @Override
     public void setMaxThrust(double maxThrust) {
-        super.maxThrust = 8000D;
+        super.maxThrust = maxThrust;
 
     }
 }
