@@ -5,7 +5,6 @@ import com.ice2670.plasmaengine.blocks.BlockPlasmaEngine;
 import net.minecraft.block.Block;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import valkyrienwarfare.ValkyrienWarfareMod;
 import valkyrienwarfare.addon.control.block.engine.BlockNormalEngine;
 
 import java.util.ArrayList;
