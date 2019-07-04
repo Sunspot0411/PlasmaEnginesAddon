@@ -11,10 +11,10 @@
     "key":
     {
         "I": {
-            "item": "ic2:plating"
+            "item": "minecraft:redstone"
         },
         "G": {
-            "item": "plasmacannons:plasma_container"
+            "item": "minecraft:diamond"
         },
         "D": {
             "item": "minecraft:iron_ingot"
@@ -23,7 +23,7 @@
     
     "result":
     {
-        "item": "plasmacannons:block_plasmagenerator",
+        "item": "plasmaengines:plasma_controller",
         "count": 1
     }
 }

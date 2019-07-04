@@ -2,18 +2,18 @@ package com.ice2670.plasmaengine.blocks;
 
 import com.ice2670.plasmaengine.init.BlockInit;
 import com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine;
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
@@ -45,6 +45,7 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
         setHardness(101.0F);
         setResistance(140.0F);
         setHarvestLevel("pickaxe", 3);
+        setLightLevel(1.0F);
         this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
     }
 
@@ -94,7 +95,16 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
     public TileEntity createNewTileEntity(World worldIn, int meta) {
         new Vector(1.0D, 0.0D, 0.0D);
         IBlockState state = this.getStateFromMeta(meta);
-        return new TileEntityPlasmaEngine(new Vector(state.getValue(FACING)), true, 4000D);
+        return new TileEntityPlasmaEngine(new Vector(state.getValue(FACING)), true, 40000D);
+    }
+
+    @Override
+    public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
+        TileEntity tileEntity = worldIn.getTileEntity(pos);
+        if(tileEntity instanceof TileEntityPlasmaEngine) {
+            ((TileEntityPlasmaEngine)tileEntity).displayPower(playerIn);
+        }
+        return true;
     }
 
     @Override
@@ -106,8 +116,8 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
         } else {
             TileEntity tileEntity = world.getTileEntity(pos);
             if(tileEntity instanceof TileEntityPlasmaEngine) {
-                ((TileEntityPlasmaEngine)tileEntity).setBlockPos(world,pos,state);
-                ((TileEntityPlasmaEngine)tileEntity).setMaxThrust(4D);
+                ((TileEntityPlasmaEngine)tileEntity).setThrust(world, pos, state);
+                ((TileEntityPlasmaEngine)tileEntity).setMaxThrust(1D);
                 ((TileEntityPlasmaEngine)tileEntity).updateTicksSinceLastRecievedSignal();
                 ((TileEntityPlasmaEngine)tileEntity).setThrustMultiplierGoal(1D);
                 return ((TileEntityPlasmaEngine)tileEntity).getForceOutputUnoriented(secondsToApply, ((PhysicsWrapperEntity)shipEntity).getPhysicsObject());
@@ -183,6 +193,12 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
 
     public boolean canConnectRedstone(IBlockState state, IBlockAccess world, BlockPos pos, EnumFacing face) {
         return true;
+    }
+
+    @Override
+    public MapColor getMapColor(IBlockState state, IBlockAccess worldIn, BlockPos pos)
+    {
+        return MapColor.QUARTZ;
     }
 
 }
