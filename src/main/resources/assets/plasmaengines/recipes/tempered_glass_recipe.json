@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DGD",
+        "GGG",
+        "DGD"
+    ],
+    
+    "key":
+    {
+        "G": {
+            "item": "minecraft:glass"
+        },
+        "D": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "plasmaengines:tempered_glass",
+        "count": 5
+    }
+}
