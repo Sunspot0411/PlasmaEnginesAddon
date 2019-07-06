@@ -110,7 +110,7 @@ public class TileEntityPlasmaEngine extends BasicForceNodeTileEntity
         if (enumfacing == EnumFacing.EAST) {
             int i = 1;
             while (i < 20) {
-                pos2 = new BlockPos(x-1, y, z);
+                pos2 = new BlockPos(x-i, y, z);
                 if (worldIn.getBlockState(pos2).getBlock() == BlockInit.BLOCK_PLASMACONTROLLER) {
                     i++;
                 } else {
