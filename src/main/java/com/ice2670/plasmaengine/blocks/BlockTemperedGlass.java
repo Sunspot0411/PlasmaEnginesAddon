@@ -18,7 +18,7 @@ public class BlockTemperedGlass extends BlockBase {
         super(name, Material.GLASS);
         setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         setSoundType(SoundType.GLASS);
-        setHardness(199.0F);
+        setHardness(202.0F);
         setResistance(110.0F);
         setHarvestLevel("pickaxe", 3);
     }
