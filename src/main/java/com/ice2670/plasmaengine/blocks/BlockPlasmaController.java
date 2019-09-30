@@ -35,8 +35,8 @@ public class BlockPlasmaController extends BlockBase{
     public BlockPlasmaController(String name, int num) {
         super(name, Material.CIRCUITS);
         setSoundType(SoundType.METAL);
-        setHardness(101.0F);
-        setResistance(140.0F);
+        setHardness(80.0F);
+        setResistance(80.0F);
         setHarvestLevel("pickaxe", 3);
         this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
         this.power=num;
