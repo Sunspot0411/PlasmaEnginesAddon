@@ -9,6 +9,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import valkyrienwarfare.mod.common.ValkyrienWarfareMod;
 
 /**
  * Created by Eric C on 6/26/2019.
@@ -20,7 +21,7 @@ public class BlockBase extends Block implements IHasModel
         super(material);
         setTranslationKey(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.TRANSPORTATION);
+        setCreativeTab(ValkyrienWarfareMod.vwTab);
 
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
