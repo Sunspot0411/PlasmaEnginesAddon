@@ -6,7 +6,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import valkyrienwarfare.mod.common.ValkyrienWarfareMod;
+import org.valkyrienskies.mod.common.ValkyrienSkiesMod;
 
 /**
  * Created by Eric C on 7/6/2019.
@@ -15,7 +15,7 @@ public class BlockTemperedGlass extends BlockBase {
     public BlockTemperedGlass(String name)
     {
         super(name, Material.GLASS);
-        setCreativeTab(ValkyrienWarfareMod.vwTab);
+        setCreativeTab(ValkyrienSkiesMod.VS_CREATIVE_TAB);
         setSoundType(SoundType.GLASS);
         setHardness(201.0F);
         setResistance(170.0F);

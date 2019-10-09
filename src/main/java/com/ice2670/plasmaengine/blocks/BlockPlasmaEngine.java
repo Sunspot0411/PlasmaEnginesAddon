@@ -22,13 +22,15 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-import valkyrienwarfare.addon.control.nodenetwork.BasicForceNodeTileEntity;
-import valkyrienwarfare.deprecated_api.IBlockForceProvider;
-import valkyrienwarfare.mod.common.coordinates.VectorImmutable;
-import valkyrienwarfare.mod.common.math.Vector;
-import valkyrienwarfare.mod.common.physics.management.PhysicsWrapperEntity;
+import org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity;
+import org.valkyrienskies.mod.common.block.IBlockForceProvider;
+import org.valkyrienskies.mod.common.coordinates.VectorImmutable;
+import org.valkyrienskies.mod.common.entity.PhysicsWrapperEntity;
+import org.valkyrienskies.mod.common.math.Vector;
+import org.valkyrienskies.mod.common.physics.management.PhysicsObject;
 
 
+import javax.annotation.Nullable;
 import java.util.Random;
 
 /**
@@ -65,6 +67,27 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
     public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state)
     {
         return new ItemStack(BlockInit.BLOCK_PLASMAENGINE);
+    }
+
+    @Nullable
+    @Override
+    public Vector getBlockForceInShipSpace(World world, BlockPos blockPos, IBlockState iBlockState, PhysicsObject physicsObject, double v) {
+        EnumFacing facing = iBlockState.getValue(FACING);
+        Vector acting = new Vector(0.0D, 0.0D, 0.0D);
+        if (!world.isBlockPowered(blockPos)) {
+            return acting;
+        } else {
+            TileEntity tileEntity = world.getTileEntity(blockPos);
+            if(tileEntity instanceof TileEntityPlasmaEngine) {
+                ((TileEntityPlasmaEngine)tileEntity).setThrust(world, blockPos, iBlockState);
+                ((TileEntityPlasmaEngine)tileEntity).setMaxThrust(1D);
+                ((TileEntityPlasmaEngine)tileEntity).updateTicksSinceLastRecievedSignal();
+                ((TileEntityPlasmaEngine)tileEntity).setThrustMultiplierGoal(1D);
+                return ((TileEntityPlasmaEngine)tileEntity).getForceOutputUnoriented(v, physicsObject);
+            } else {
+                return acting;
+            }
+        }
     }
 
     @Override
@@ -107,25 +130,6 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
         return true;
     }
 
-    @Override
-    public Vector getBlockForceInShipSpace(World world, BlockPos pos, IBlockState state, Entity shipEntity, double secondsToApply) {
-        EnumFacing facing = state.getValue(FACING);
-        Vector acting = new Vector(0.0D, 0.0D, 0.0D);
-        if (!world.isBlockPowered(pos)) {
-            return acting;
-        } else {
-            TileEntity tileEntity = world.getTileEntity(pos);
-            if(tileEntity instanceof TileEntityPlasmaEngine) {
-                ((TileEntityPlasmaEngine)tileEntity).setThrust(world, pos, state);
-                ((TileEntityPlasmaEngine)tileEntity).setMaxThrust(1D);
-                ((TileEntityPlasmaEngine)tileEntity).updateTicksSinceLastRecievedSignal();
-                ((TileEntityPlasmaEngine)tileEntity).setThrustMultiplierGoal(1D);
-                return ((TileEntityPlasmaEngine)tileEntity).getForceOutputUnoriented(secondsToApply, ((PhysicsWrapperEntity)shipEntity).getPhysicsObject());
-            } else {
-                return acting;
-            }
-        }
-    }
 
     public Vector getCustomBlockForcePosition(World world, BlockPos pos, IBlockState state, Entity shipEntity, double secondsToApply) {
         TileEntity engineTile = world.getTileEntity(pos);
