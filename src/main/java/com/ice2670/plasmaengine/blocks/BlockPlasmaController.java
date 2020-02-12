@@ -29,7 +29,7 @@ import java.util.Random;
  */
 public class BlockPlasmaController extends BlockBase{
 
-    public static final PropertyDirection FACING = BlockHorizontal.FACING;
+    public static final PropertyDirection FACING = BlockDirectional.FACING;
     int power=0;
 
     public BlockPlasmaController(String name, int num) {
@@ -68,12 +68,16 @@ public class BlockPlasmaController extends BlockBase{
             IBlockState south = worldIn.getBlockState(pos.south());
             IBlockState west = worldIn.getBlockState(pos.west());
             IBlockState east = worldIn.getBlockState(pos.east());
+            IBlockState up = worldIn.getBlockState(pos.up());
+            IBlockState down= worldIn.getBlockState(pos.down());
             EnumFacing face = state.getValue(FACING);
 
             if (face == EnumFacing.NORTH && north.isFullBlock() && !south.isFullBlock()) face = EnumFacing.SOUTH;
             else if (face == EnumFacing.SOUTH && south.isFullBlock() && !north.isFullBlock()) face = EnumFacing.NORTH;
             else if (face == EnumFacing.WEST && west.isFullBlock() && !east.isFullBlock()) face = EnumFacing.EAST;
             else if (face == EnumFacing.EAST && east.isFullBlock() && !west.isFullBlock()) face = EnumFacing.WEST;
+            else if (face == EnumFacing.UP && up.isFullBlock() && !down.isFullBlock()) face = EnumFacing.DOWN;
+            else if (face == EnumFacing.DOWN && down.isFullBlock() && !up.isFullBlock()) face = EnumFacing.UP;
             worldIn.setBlockState(pos, state.withProperty(FACING, face), 2);
 
         }
@@ -98,7 +102,7 @@ public class BlockPlasmaController extends BlockBase{
     @Override
     public void onBlockPlacedBy(World worldIn, BlockPos pos, IBlockState state, EntityLivingBase placer, ItemStack stack)
     {
-        worldIn.setBlockState(pos, this.getDefaultState().withProperty(FACING, placer.getHorizontalFacing().getOpposite()), 2);
+        worldIn.setBlockState(pos, this.getDefaultState().withProperty(FACING, EnumFacing.getDirectionFromEntityLiving(pos, placer)), 2);
     }
 
     @Override
@@ -116,6 +120,12 @@ public class BlockPlasmaController extends BlockBase{
             return plasmaControl.getPower();
         }
         else if (enumfacing == EnumFacing.WEST && side == EnumFacing.WEST){
+            return plasmaControl.getPower();
+        }
+        else if (enumfacing == EnumFacing.UP && side == EnumFacing.UP){
+            return plasmaControl.getPower();
+        }
+        else if (enumfacing == EnumFacing.DOWN && side == EnumFacing.DOWN){
             return plasmaControl.getPower();
         }
         else {

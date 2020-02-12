@@ -37,7 +37,7 @@ import java.util.Random;
  * Created by Eric C on 6/26/2019.
  */
 public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider, ITileEntityProvider {
-    public static final PropertyDirection FACING = BlockHorizontal.FACING;
+    public static final PropertyDirection FACING = PropertyDirection.create("facing");
 
 
     public BlockPlasmaEngine(String name)
@@ -104,12 +104,16 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
             IBlockState south = worldIn.getBlockState(pos.south());
             IBlockState west = worldIn.getBlockState(pos.west());
             IBlockState east = worldIn.getBlockState(pos.east());
+            IBlockState up = worldIn.getBlockState(pos.up());
+            IBlockState down = worldIn.getBlockState(pos.down());
             EnumFacing face = state.getValue(FACING);
 
             if (face == EnumFacing.NORTH && north.isFullBlock() && !south.isFullBlock()) face = EnumFacing.SOUTH;
             else if (face == EnumFacing.SOUTH && south.isFullBlock() && !north.isFullBlock()) face = EnumFacing.NORTH;
             else if (face == EnumFacing.WEST && west.isFullBlock() && !east.isFullBlock()) face = EnumFacing.EAST;
             else if (face == EnumFacing.EAST && east.isFullBlock() && !west.isFullBlock()) face = EnumFacing.WEST;
+            else if (face == EnumFacing.UP && up.isFullBlock() && !down.isFullBlock()) face = EnumFacing.DOWN;
+            else if (face == EnumFacing.DOWN && down.isFullBlock() && !up.isFullBlock()) face = EnumFacing.UP;
             worldIn.setBlockState(pos, state.withProperty(FACING, face), 2);
         }
     }
@@ -145,13 +149,13 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
     @Override
     public IBlockState getStateForPlacement(World world, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer, EnumHand hand)
     {
-        return this.getDefaultState().withProperty(FACING, placer.getHorizontalFacing().getOpposite());
+        return this.getDefaultState().withProperty(FACING, EnumFacing.getDirectionFromEntityLiving(pos, placer));
     }
 
     @Override
     public void onBlockPlacedBy(World worldIn, BlockPos pos, IBlockState state, EntityLivingBase placer, ItemStack stack)
     {
-        worldIn.setBlockState(pos, this.getDefaultState().withProperty(FACING, placer.getHorizontalFacing().getOpposite()), 2);
+        worldIn.setBlockState(pos, this.getDefaultState().withProperty(FACING, EnumFacing.getDirectionFromEntityLiving(pos, placer)), 2);
     }
 
 
@@ -178,7 +182,7 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider,
     @Override
     protected BlockStateContainer createBlockState()
     {
-        return new BlockStateContainer(this, new IProperty[] {FACING});
+        return new BlockStateContainer(this, FACING);
     }
 
     @Override

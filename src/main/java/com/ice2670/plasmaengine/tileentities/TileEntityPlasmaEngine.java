@@ -134,6 +134,34 @@ public class TileEntityPlasmaEngine extends BasicForceNodeTileEntity
                 }
             }
         }
+
+        if (enumfacing == EnumFacing.UP) {
+            int i = 1;
+            while (i < 20) {
+                pos2 = new BlockPos(x, y-i, z);
+                if (worldIn.getBlockState(pos2).getBlock() == BlockInit.BLOCK_PLASMACONTROLLER) {
+                    i++;
+                } else {
+                    this.power = i;
+                    world.notifyBlockUpdate(pos, getState(), getState(), 3);
+                    break;
+                }
+            }
+        }
+
+        if (enumfacing == EnumFacing.DOWN) {
+            int i = 1;
+            while (i < 20) {
+                pos2 = new BlockPos(x, y+i, z);
+                if (worldIn.getBlockState(pos2).getBlock() == BlockInit.BLOCK_PLASMACONTROLLER) {
+                    i++;
+                } else {
+                    this.power = i;
+                    world.notifyBlockUpdate(pos, getState(), getState(), 3);
+                    break;
+                }
+            }
+        }
     }
 
     public void displayPower(EntityPlayer playerIn){
