@@ -1,0 +1,49 @@
+Unsupposrted library path: D:\Minecraft Modding\PlasmaEnginesAddon\build\classes\api
+Unsupposrted library path: D:\Minecraft Modding\PlasmaEnginesAddon\build\resources\api
+Symbol range map extraction starting
+Processing 15 files
+startProcessing "com/ice2670/plasmaengine/Main.java" md5: db07340e6c88c5d18e234132954e143e
+endProcessing "com/ice2670/plasmaengine/Main.java"
+
+startProcessing "com/ice2670/plasmaengine/blocks/BlockBase.java" md5: 2c4faf523a024d4d52dfa91dbf4bbd89
+endProcessing "com/ice2670/plasmaengine/blocks/BlockBase.java"
+
+startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java" md5: cf809336748535c2dba3c78db61dc93a
+endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java"
+
+startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: d950133e6d923f44c5d8e57e4a5661ff
+endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java"
+
+startProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java" md5: bbd3e8b66164978bd56ff62003d22316
+endProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java"
+
+startProcessing "com/ice2670/plasmaengine/init/BlockInit.java" md5: 26932c3bf7c7ace5220643b0043390c0
+endProcessing "com/ice2670/plasmaengine/init/BlockInit.java"
+
+startProcessing "com/ice2670/plasmaengine/init/ItemInit.java" md5: 3e9da01c59a12580c754c0a400338fdb
+endProcessing "com/ice2670/plasmaengine/init/ItemInit.java"
+
+startProcessing "com/ice2670/plasmaengine/proxy/ClientProxy.java" md5: 15a19ef6390a3e108040b43c62a1c490
+endProcessing "com/ice2670/plasmaengine/proxy/ClientProxy.java"
+
+startProcessing "com/ice2670/plasmaengine/proxy/CommonProxy.java" md5: ccd9de011159dff50749395ff9aef4d0
+endProcessing "com/ice2670/plasmaengine/proxy/CommonProxy.java"
+
+startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java" md5: 4b8399457525c40df0856d91ebbd4cbd
+endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java"
+
+startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java" md5: b3b564e571a54a99a7e0a5f14665461d
+endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java"
+
+startProcessing "com/ice2670/plasmaengine/util/IHasModel.java" md5: ecd6d4f658e17cdc365be641bf5ab234
+endProcessing "com/ice2670/plasmaengine/util/IHasModel.java"
+
+startProcessing "com/ice2670/plasmaengine/util/Reference.java" md5: 633ca64044aeeec8e4181b8300eb547d
+endProcessing "com/ice2670/plasmaengine/util/Reference.java"
+
+startProcessing "com/ice2670/plasmaengine/util/handlers/RegistryHandler.java" md5: 9bd177aacb848c0eb383355358e50c2c
+endProcessing "com/ice2670/plasmaengine/util/handlers/RegistryHandler.java"
+
+startProcessing "com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java" md5: c47b72ab6dffd1e506524f3bc5d9f69a
+endProcessing "com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java"
+

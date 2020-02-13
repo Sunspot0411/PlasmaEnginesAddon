@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DID",
+        "IGI",
+        "DID"
+    ],
+    
+    "key":
+    {
+        "I": {
+            "item": "minecraft:redstone"
+        },
+        "G": {
+            "item": "minecraft:diamond"
+        },
+        "D": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "plasmaengines:plasma_controller",
+        "count": 1
+    }
+}

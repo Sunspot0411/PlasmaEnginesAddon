@@ -1,0 +1,1105 @@
+Unsupposrted library path: D:\Minecraft Modding\PlasmaEnginesAddon\build\classes\api
+Unsupposrted library path: D:\Minecraft Modding\PlasmaEnginesAddon\build\resources\api
+Symbol range map extraction starting
+Processing 15 files
+startProcessing "com/ice2670/plasmaengine/Main.java" md5: db07340e6c88c5d18e234132954e143e
+@|com/ice2670/plasmaengine/Main.java|8|32|com.ice2670.plasmaengine|package|com.ice2670.plasmaengine|(file)
+Class Start: com.ice2670.plasmaengine.Main
+   @|com/ice2670/plasmaengine/Main.java|736|739|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|com/ice2670/plasmaengine/Main.java|740|745|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com/ice2670/plasmaengine/Main.java|748|757|Reference|class|com.ice2670.plasmaengine.util.Reference|false
+   @|com/ice2670/plasmaengine/Main.java|758|763|MODID|field|com.ice2670.plasmaengine.util.Reference|MODID
+   @|com/ice2670/plasmaengine/Main.java|765|769|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com/ice2670/plasmaengine/Main.java|772|781|Reference|class|com.ice2670.plasmaengine.util.Reference|false
+   @|com/ice2670/plasmaengine/Main.java|782|786|NAME|field|com.ice2670.plasmaengine.util.Reference|NAME
+   @|com/ice2670/plasmaengine/Main.java|788|795|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com/ice2670/plasmaengine/Main.java|798|807|Reference|class|com.ice2670.plasmaengine.util.Reference|false
+   @|com/ice2670/plasmaengine/Main.java|808|815|VERSION|field|com.ice2670.plasmaengine.util.Reference|VERSION
+   @|com/ice2670/plasmaengine/Main.java|831|835|Main|class|com.ice2670.plasmaengine.Main|false
+   @|com/ice2670/plasmaengine/Main.java|872|876|Main|class|com.ice2670.plasmaengine.Main|false
+   @|com/ice2670/plasmaengine/Main.java|844|852|Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
+   @|com/ice2670/plasmaengine/Main.java|872|876|Main|class|com.ice2670.plasmaengine.Main|false
+   @|com/ice2670/plasmaengine/Main.java|877|885|instance|field|com.ice2670.plasmaengine.Main|instance|
+   @|com/ice2670/plasmaengine/Main.java|987|998|CommonProxy|class|com.ice2670.plasmaengine.proxy.CommonProxy|false
+   @|com/ice2670/plasmaengine/Main.java|895|905|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
+   @|com/ice2670/plasmaengine/Main.java|906|916|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com/ice2670/plasmaengine/Main.java|919|928|Reference|class|com.ice2670.plasmaengine.util.Reference|false
+   @|com/ice2670/plasmaengine/Main.java|929|935|CLIENT|field|com.ice2670.plasmaengine.util.Reference|CLIENT
+   @|com/ice2670/plasmaengine/Main.java|937|947|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com/ice2670/plasmaengine/Main.java|950|959|Reference|class|com.ice2670.plasmaengine.util.Reference|false
+   @|com/ice2670/plasmaengine/Main.java|960|966|COMMON|field|com.ice2670.plasmaengine.util.Reference|COMMON
+   @|com/ice2670/plasmaengine/Main.java|987|998|CommonProxy|class|com.ice2670.plasmaengine.proxy.CommonProxy|false
+   @|com/ice2670/plasmaengine/Main.java|999|1004|proxy|field|com.ice2670.plasmaengine.Main|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/ice2670/plasmaengine/Main.java|1085|1090|event|param|com.ice2670.plasmaengine.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/ice2670/plasmaengine/Main.java|1014|1026|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/ice2670/plasmaengine/Main.java|1051|1058|preInit|method|com.ice2670.plasmaengine.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/ice2670/plasmaengine/Main.java|1059|1084|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|com/ice2670/plasmaengine/Main.java|1103|1118|RegistryHandler|class|com.ice2670.plasmaengine.util.handlers.RegistryHandler|false
+      @|com/ice2670/plasmaengine/Main.java|1119|1136|preInitRegistries|method|com.ice2670.plasmaengine.util.handlers.RegistryHandler|preInitRegistries|()V
+      @|com/ice2670/plasmaengine/Main.java|1149|1154|proxy|field|com.ice2670.plasmaengine.Main|proxy
+      @|com/ice2670/plasmaengine/Main.java|1155|1176|registerEntityRenders|method|com.ice2670.plasmaengine.proxy.CommonProxy|registerEntityRenders|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/ice2670/plasmaengine/Main.java|1260|1265|event|param|com.ice2670.plasmaengine.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/ice2670/plasmaengine/Main.java|1195|1207|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/ice2670/plasmaengine/Main.java|1232|1236|init|method|com.ice2670.plasmaengine.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/ice2670/plasmaengine/Main.java|1237|1259|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|com/ice2670/plasmaengine/Main.java|1278|1293|RegistryHandler|class|com.ice2670.plasmaengine.util.handlers.RegistryHandler|false
+      @|com/ice2670/plasmaengine/Main.java|1294|1308|initRegistries|method|com.ice2670.plasmaengine.util.handlers.RegistryHandler|initRegistries|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/ice2670/plasmaengine/Main.java|1400|1405|event|param|com.ice2670.plasmaengine.Main|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com/ice2670/plasmaengine/Main.java|1327|1339|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/ice2670/plasmaengine/Main.java|1364|1372|postInit|method|com.ice2670.plasmaengine.Main|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/ice2670/plasmaengine/Main.java|1373|1399|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+      @|com/ice2670/plasmaengine/Main.java|1408|1423|RegistryHandler|class|com.ice2670.plasmaengine.util.handlers.RegistryHandler|false
+      @|com/ice2670/plasmaengine/Main.java|1424|1442|postInitRegistries|method|com.ice2670.plasmaengine.util.handlers.RegistryHandler|postInitRegistries|()V
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.ice2670.plasmaengine.Main
+endProcessing "com/ice2670/plasmaengine/Main.java"
+
+startProcessing "com/ice2670/plasmaengine/blocks/BlockBase.java" md5: 2c4faf523a024d4d52dfa91dbf4bbd89
+@|com/ice2670/plasmaengine/blocks/BlockBase.java|8|39|com.ice2670.plasmaengine.blocks|package|com.ice2670.plasmaengine.blocks|(file)
+Class Start: com.ice2670.plasmaengine.blocks.BlockBase
+   @|com/ice2670/plasmaengine/blocks/BlockBase.java|548|557|BlockBase|class|com.ice2670.plasmaengine.blocks.BlockBase|false
+   @|com/ice2670/plasmaengine/blocks/BlockBase.java|566|571|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/blocks/BlockBase.java|583|592|IHasModel|class|com.ice2670.plasmaengine.util.IHasModel|false
+   Method Start: BlockBase(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|625|629|name|param|com.ice2670.plasmaengine.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|640|648|material|param|com.ice2670.plasmaengine.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|608|617|BlockBase|method|com.ice2670.plasmaengine.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|618|624|String|class|java.lang.String|false
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|631|639|Material|class|net.minecraft.block.material.Material|false
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|672|680|material|param|com.ice2670.plasmaengine.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|692|709|setTranslationKey|method|net.minecraft.block.Block|setTranslationKey|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|710|714|name|param|com.ice2670.plasmaengine.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|726|741|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|742|746|name|param|com.ice2670.plasmaengine.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|758|772|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|773|790|ValkyrienSkiesMod|class|org.valkyrienskies.mod.common.ValkyrienSkiesMod|false
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|791|806|VS_CREATIVE_TAB|field|org.valkyrienskies.mod.common.ValkyrienSkiesMod|VS_CREATIVE_TAB
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|820|829|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|830|836|BLOCKS|field|com.ice2670.plasmaengine.init.BlockInit|BLOCKS
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|837|840|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|857|865|ItemInit|class|com.ice2670.plasmaengine.init.ItemInit|false
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|866|871|ITEMS|field|com.ice2670.plasmaengine.init.ItemInit|ITEMS
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|872|875|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|880|889|ItemBlock|class|net.minecraft.item.ItemBlock|false
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|896|911|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|917|932|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: BlockBase(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+   Method Start: registerModels()V
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|953|961|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|979|993|registerModels|method|com.ice2670.plasmaengine.util.IHasModel|registerModels|()V
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|1012|1016|Main|class|com.ice2670.plasmaengine.Main|false
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|1017|1022|proxy|field|com.ice2670.plasmaengine.Main|proxy
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|1023|1043|registerItemRenderer|method|com.ice2670.plasmaengine.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|1044|1048|Item|class|net.minecraft.item.Item|false
+      @|com/ice2670/plasmaengine/blocks/BlockBase.java|1049|1065|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+   Method End: registerModels()V
+Class End  : com.ice2670.plasmaengine.blocks.BlockBase
+endProcessing "com/ice2670/plasmaengine/blocks/BlockBase.java"
+
+startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java" md5: cf809336748535c2dba3c78db61dc93a
+@|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|8|39|com.ice2670.plasmaengine.blocks|package|com.ice2670.plasmaengine.blocks|(file)
+Class Start: com.ice2670.plasmaengine.blocks.BlockPlasmaController
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|831|852|BlockPlasmaController|class|com.ice2670.plasmaengine.blocks.BlockPlasmaController|false
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|861|870|BlockBase|class|com.ice2670.plasmaengine.blocks.BlockBase|false
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|899|916|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection|false
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|899|916|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection|false
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|917|923|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaController|FACING|
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|926|943|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection|false
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|944|950|create|method|net.minecraft.block.properties.PropertyDirection|create|(Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyDirection;
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|973|978|power|field|com.ice2670.plasmaengine.blocks.BlockPlasmaController|power|
+   Method Start: BlockPlasmaController(Ljava/lang/String;I)V
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1025|1029|name|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|BlockPlasmaController|(Ljava/lang/String;I)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1035|1038|num|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|BlockPlasmaController|(Ljava/lang/String;I)V|num|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|996|1017|BlockPlasmaController|method|com.ice2670.plasmaengine.blocks.BlockPlasmaController|BlockPlasmaController|(Ljava/lang/String;I)V
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1018|1024|String|class|java.lang.String|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1062|1066|name|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|BlockPlasmaController|(Ljava/lang/String;I)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1068|1076|Material|class|net.minecraft.block.material.Material|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1077|1081|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1093|1107|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1108|1125|ValkyrienSkiesMod|class|org.valkyrienskies.mod.common.ValkyrienSkiesMod|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1126|1141|VS_CREATIVE_TAB|field|org.valkyrienskies.mod.common.ValkyrienSkiesMod|VS_CREATIVE_TAB
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1153|1165|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1166|1175|SoundType|class|net.minecraft.block.SoundType|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1176|1181|METAL|field|net.minecraft.block.SoundType|METAL
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1193|1204|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1222|1235|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1253|1268|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1298|1303|power|field|com.ice2670.plasmaengine.blocks.BlockPlasmaController|power
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1304|1307|num|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|BlockPlasmaController|(Ljava/lang/String;I)V|num|1
+   Method End: BlockPlasmaController(Ljava/lang/String;I)V
+   Method Start: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1384|1391|worldIn|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|worldIn|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1402|1405|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1418|1424|facing|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|facing|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1432|1436|hitX|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitX|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1444|1448|hitY|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitY|4
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1456|1460|hitZ|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitZ|5
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1466|1470|meta|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|meta|6
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1489|1495|placer|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1324|1332|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1345|1356|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1357|1377|getStateForPlacement|method|net.minecraft.block.Block|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1378|1383|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1393|1401|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1407|1417|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1472|1488|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1520|1535|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1538|1550|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1551|1557|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaController|FACING
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1559|1569|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1570|1598|getDirectionFromEntityLiving|method|net.minecraft.util.EnumFacing|getDirectionFromEntityLiving|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/util/EnumFacing;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1599|1602|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1604|1610|placer|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+   Method End: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+   Method Start: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1629|1637|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1653|1672|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1673|1689|createBlockState|method|net.minecraft.block.Block|createBlockState|()Lnet/minecraft/block/state/BlockStateContainer;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1714|1733|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1740|1746|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaController|FACING
+   Method End: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+   Method Start: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1818|1822|meta|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1764|1772|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1785|1796|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1797|1813|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1842|1857|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1860|1872|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1873|1879|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaController|FACING
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1881|1891|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1892|1899|byIndex|method|net.minecraft.util.EnumFacing|byIndex|(I)Lnet/minecraft/util/EnumFacing;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1900|1904|meta|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+   Method End: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
+   Method Start: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1977|1982|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1923|1931|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1948|1964|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|1965|1976|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2003|2008|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2009|2017|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2018|2024|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaController|FACING
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2026|2034|getIndex|method|net.minecraft.util.EnumFacing|getIndex|()I
+   Method End: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+   Method Start: hasTileEntity(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2127|2132|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|hasTileEntity|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2072|2080|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2101|2114|hasTileEntity|method|net.minecraft.block.Block|hasTileEntity|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2115|2126|IBlockState|class|net.minecraft.block.state.IBlockState|false
+   Method End: hasTileEntity(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2228|2233|world|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|world|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2247|2252|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|state|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2173|2181|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2194|2204|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2205|2221|createTileEntity|method|net.minecraft.block.Block|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2222|2227|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2235|2246|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2276|2299|TileEntityPlasmaControl|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|false
+   Method End: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+   Method Start: getWeakPower(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2368|2378|blockState|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|blockState|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2393|2404|blockAccess|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|blockAccess|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2415|2418|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|pos|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2431|2435|side|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|side|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2318|2326|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2343|2355|getWeakPower|method|net.minecraft.block.Block|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2356|2367|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2380|2392|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2406|2414|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2420|2430|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2453|2476|TileEntityPlasmaControl|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2494|2517|TileEntityPlasmaControl|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2518|2529|blockAccess|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|blockAccess|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2530|2543|getTileEntity|method|net.minecraft.world.IBlockAccess|getTileEntity|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2544|2547|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|pos|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2559|2569|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2584|2594|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2596|2606|blockState|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|blockState|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2607|2615|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2616|2622|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaController|FACING
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2652|2662|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2663|2668|NORTH|field|net.minecraft.util.EnumFacing|NORTH
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2672|2676|side|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|side|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2680|2690|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2691|2696|NORTH|field|net.minecraft.util.EnumFacing|NORTH
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2733|2741|getPower|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|getPower|()I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2788|2798|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2799|2804|SOUTH|field|net.minecraft.util.EnumFacing|SOUTH
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2808|2812|side|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|side|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2816|2826|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2827|2832|SOUTH|field|net.minecraft.util.EnumFacing|SOUTH
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2869|2877|getPower|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|getPower|()I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2924|2934|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2935|2939|EAST|field|net.minecraft.util.EnumFacing|EAST
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2943|2947|side|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|side|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2951|2961|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|2962|2966|EAST|field|net.minecraft.util.EnumFacing|EAST
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3003|3011|getPower|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|getPower|()I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3058|3068|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3069|3073|WEST|field|net.minecraft.util.EnumFacing|WEST
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3077|3081|side|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|side|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3085|3095|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3096|3100|WEST|field|net.minecraft.util.EnumFacing|WEST
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3137|3145|getPower|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|getPower|()I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3192|3202|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3203|3205|UP|field|net.minecraft.util.EnumFacing|UP
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3209|3213|side|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|side|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3217|3227|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3228|3230|UP|field|net.minecraft.util.EnumFacing|UP
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3267|3275|getPower|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|getPower|()I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3322|3332|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3333|3337|DOWN|field|net.minecraft.util.EnumFacing|DOWN
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3341|3345|side|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getWeakPower|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I|side|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3349|3359|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3360|3364|DOWN|field|net.minecraft.util.EnumFacing|DOWN
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3401|3409|getPower|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|getPower|()I
+   Method End: getWeakPower(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I
+   Method Start: canProvidePower(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3531|3536|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|canProvidePower|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3503|3518|canProvidePower|method|net.minecraft.block.Block|canProvidePower|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3519|3530|IBlockState|class|net.minecraft.block.state.IBlockState|false
+   Method End: canProvidePower(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: canConnectRedstone(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3631|3636|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3651|3656|world|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|world|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3667|3670|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|pos|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3683|3687|face|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|face|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3600|3618|canConnectRedstone|method|net.minecraft.block.Block|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3619|3630|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3638|3650|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3658|3666|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3672|3682|EnumFacing|class|net.minecraft.util.EnumFacing|false
+   Method End: canConnectRedstone(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+   Method Start: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3766|3771|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3780|3784|rand|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3790|3797|fortune|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3734|3738|Item|class|net.minecraft.item.Item|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3739|3753|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3754|3765|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3773|3779|Random|class|java.util.Random|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3822|3826|Item|class|net.minecraft.item.Item|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3827|3843|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3844|3853|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3854|3876|BLOCK_PLASMACONTROLLER|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMACONTROLLER
+   Method End: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+   Method Start: getItem(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3924|3931|worldIn|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getItem|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;|worldIn|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3942|3945|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getItem|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3959|3964|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaController|getItem|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;|state|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3900|3909|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3910|3917|getItem|method|net.minecraft.block.Block|getItem|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3918|3923|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3933|3941|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3947|3958|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|3993|4002|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|4003|4012|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|4013|4035|BLOCK_PLASMACONTROLLER|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMACONTROLLER
+   Method End: getItem(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;
+Class End  : com.ice2670.plasmaengine.blocks.BlockPlasmaController
+endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java"
+
+startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: d950133e6d923f44c5d8e57e4a5661ff
+@|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|8|39|com.ice2670.plasmaengine.blocks|package|com.ice2670.plasmaengine.blocks|(file)
+Class Start: com.ice2670.plasmaengine.blocks.BlockPlasmaEngine
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1333|1350|BlockPlasmaEngine|class|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|false
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1359|1368|BlockBase|class|com.ice2670.plasmaengine.blocks.BlockBase|false
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1380|1399|IBlockForceProvider|class|org.valkyrienskies.mod.common.block.IBlockForceProvider|false
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1430|1447|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection|false
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1430|1447|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection|false
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1448|1454|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|FACING|
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1457|1474|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection|false
+   @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1475|1481|create|method|net.minecraft.block.properties.PropertyDirection|create|(Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyDirection;
+   Method Start: BlockPlasmaEngine(Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1532|1536|name|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|BlockPlasmaEngine|(Ljava/lang/String;)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1507|1524|BlockPlasmaEngine|method|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|BlockPlasmaEngine|(Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1525|1531|String|class|java.lang.String|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1560|1564|name|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|BlockPlasmaEngine|(Ljava/lang/String;)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1566|1574|Material|class|net.minecraft.block.material.Material|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1575|1579|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1591|1603|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1604|1613|SoundType|class|net.minecraft.block.SoundType|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1614|1619|METAL|field|net.minecraft.block.SoundType|METAL
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1631|1642|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1661|1674|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1693|1708|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1733|1746|setLightLevel|method|net.minecraft.block.Block|setLightLevel|(F)Lnet/minecraft/block/Block;
+   Method End: BlockPlasmaEngine(Ljava/lang/String;)V
+   Method Start: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1831|1838|worldIn|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|worldIn|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1849|1852|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1865|1871|facing|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|facing|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1879|1883|hitX|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitX|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1891|1895|hitY|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitY|4
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1903|1907|hitZ|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitZ|5
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1913|1917|meta|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|meta|6
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1936|1942|placer|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1771|1779|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1792|1803|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1804|1824|getStateForPlacement|method|net.minecraft.block.Block|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1825|1830|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1840|1848|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1854|1864|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1919|1935|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1967|1982|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1985|1997|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1998|2004|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|FACING
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2006|2016|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2017|2045|getDirectionFromEntityLiving|method|net.minecraft.util.EnumFacing|getDirectionFromEntityLiving|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/util/EnumFacing;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2046|2049|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2051|2057|placer|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+   Method End: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+   Method Start: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2076|2084|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2100|2119|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2120|2136|createBlockState|method|net.minecraft.block.Block|createBlockState|()Lnet/minecraft/block/state/BlockStateContainer;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2161|2180|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2187|2193|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|FACING
+   Method End: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+   Method Start: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2265|2269|meta|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2211|2219|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2232|2243|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2244|2260|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2289|2304|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2307|2319|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2320|2326|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|FACING
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2328|2338|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2339|2346|byIndex|method|net.minecraft.util.EnumFacing|byIndex|(I)Lnet/minecraft/util/EnumFacing;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2347|2351|meta|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+   Method End: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
+   Method Start: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2424|2429|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2370|2378|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2395|2411|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2412|2423|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2450|2455|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2456|2464|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2465|2471|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|FACING
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2473|2481|getIndex|method|net.minecraft.util.EnumFacing|getIndex|()I
+   Method End: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+   Method Start: hasTileEntity(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2574|2579|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|hasTileEntity|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2519|2527|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2548|2561|hasTileEntity|method|net.minecraft.block.Block|hasTileEntity|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2562|2573|IBlockState|class|net.minecraft.block.state.IBlockState|false
+   Method End: hasTileEntity(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2675|2680|world|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|world|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2694|2699|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|state|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2620|2628|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2641|2651|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2652|2668|createTileEntity|method|net.minecraft.block.Block|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2669|2674|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2682|2693|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2716|2722|Vector|class|org.valkyrienskies.mod.common.math.Vector|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2762|2784|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2789|2795|Vector|class|org.valkyrienskies.mod.common.math.Vector|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2796|2801|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|state|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2802|2810|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2811|2817|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|FACING
+   Method End: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+   Method Start: getItem(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2896|2903|worldIn|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getItem|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;|worldIn|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2914|2917|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getItem|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2931|2936|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getItem|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;|state|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2851|2859|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2872|2881|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2882|2889|getItem|method|net.minecraft.block.Block|getItem|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2890|2895|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2905|2913|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2919|2930|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2965|2974|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2975|2984|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|2985|3003|BLOCK_PLASMAENGINE|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMAENGINE
+   Method End: getItem(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;
+   Method Start: getBlockForceInShipSpace(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3095|3100|world|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|world|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3111|3119|blockPos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|blockPos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3133|3144|iBlockState|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|iBlockState|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3160|3173|physicsObject|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|physicsObject|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3182|3183|v|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|v|4
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3021|3029|Nullable|class|javax.annotation.Nullable|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3036|3044|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3057|3063|Vector|class|org.valkyrienskies.mod.common.math.Vector|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3064|3088|getBlockForceInShipSpace|method|org.valkyrienskies.mod.common.block.IBlockForceProvider|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3089|3094|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3102|3110|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3121|3132|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3146|3159|PhysicsObject|class|org.valkyrienskies.mod.common.physics.management.PhysicsObject|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3196|3206|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3216|3227|iBlockState|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|iBlockState|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3228|3236|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3237|3243|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|FACING
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3255|3261|Vector|class|org.valkyrienskies.mod.common.math.Vector|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3275|3281|Vector|class|org.valkyrienskies.mod.common.math.Vector|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3315|3320|world|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|world|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3321|3335|isBlockPowered|method|net.minecraft.world.World|isBlockPowered|(Lnet/minecraft/util/math/BlockPos;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3336|3344|blockPos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|blockPos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3408|3418|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3432|3437|world|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|world|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3438|3451|getTileEntity|method|net.minecraft.world.IBlockAccess|getTileEntity|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3452|3460|blockPos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|blockPos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3501|3523|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3546|3568|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3581|3590|setThrust|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3591|3596|world|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|world|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3598|3606|blockPos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|blockPos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3608|3619|iBlockState|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|iBlockState|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3641|3663|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3676|3688|setMaxThrust|method|org.valkyrienskies.addon.control.nodenetwork.IForceTile|setMaxThrust|(D)V
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3713|3735|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3748|3782|updateTicksSinceLastRecievedSignal|method|org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity|updateTicksSinceLastRecievedSignal|()V
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3805|3827|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3840|3863|setThrustMultiplierGoal|method|org.valkyrienskies.addon.control.nodenetwork.IForceTile|setThrustMultiplierGoal|(D)V
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3895|3917|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3930|3954|getForceOutputUnoriented|method|org.valkyrienskies.addon.control.nodenetwork.IForceTile|getForceOutputUnoriented|(DLorg/valkyrienskies/mod/common/physics/management/PhysicsObject;)Lorg/valkyrienskies/mod/common/math/Vector;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3955|3956|v|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|v|4
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|3958|3971|physicsObject|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getBlockForceInShipSpace|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;|physicsObject|3
+   Method End: getBlockForceInShipSpace(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;D)Lorg/valkyrienskies/mod/common/math/Vector;
+   Method Start: shouldLocalForceBeRotated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;D)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4130|4135|world|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|shouldLocalForceBeRotated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;D)Z|world|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4146|4154|blockPos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|shouldLocalForceBeRotated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;D)Z|blockPos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4168|4179|iBlockState|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|shouldLocalForceBeRotated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;D)Z|iBlockState|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4188|4189|v|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|shouldLocalForceBeRotated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;D)Z|v|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4069|4077|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4098|4123|shouldLocalForceBeRotated|method|org.valkyrienskies.mod.common.block.IBlockForceProvider|shouldLocalForceBeRotated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;D)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4124|4129|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4137|4145|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4156|4167|IBlockState|class|net.minecraft.block.state.IBlockState|false
+   Method End: shouldLocalForceBeRotated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;D)Z
+   Method Start: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4282|4289|worldIn|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4300|4303|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4317|4322|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|state|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4337|4345|playerIn|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4356|4360|hand|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hand|4
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4373|4379|facing|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|facing|5
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4387|4391|hitX|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitX|6
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4399|4403|hitY|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitY|7
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4411|4415|hitZ|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitZ|8
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4230|4238|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4259|4275|onBlockActivated|method|net.minecraft.block.Block|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4276|4281|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4291|4299|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4305|4316|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4324|4336|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4347|4355|EnumHand|class|net.minecraft.util.EnumHand|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4362|4372|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4428|4438|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4452|4459|worldIn|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4460|4473|getTileEntity|method|net.minecraft.world.IBlockAccess|getTileEntity|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4474|4477|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4514|4536|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4555|4577|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4590|4602|displayPower|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|displayPower|(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4603|4611|playerIn|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+   Method End: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+   Method Start: getCustomBlockForcePosition(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4709|4714|world|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|world|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4725|4728|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4742|4747|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|state|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4756|4766|shipEntity|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|shipEntity|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4775|4789|secondsToApply|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|secondsToApply|4
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4668|4674|Vector|class|org.valkyrienskies.mod.common.math.Vector|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4675|4702|getCustomBlockForcePosition|method|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4703|4708|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4716|4724|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4730|4741|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4749|4755|Entity|class|net.minecraft.entity.Entity|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4802|4812|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4826|4831|world|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|world|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4832|4845|getTileEntity|method|net.minecraft.world.IBlockAccess|getTileEntity|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4846|4849|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4889|4913|BasicForceNodeTileEntity|class|org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4930|4945|VectorImmutable|class|org.valkyrienskies.mod.common.coordinates.VectorImmutable|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|4968|4992|BasicForceNodeTileEntity|class|org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5006|5026|getForceOutputNormal|method|org.valkyrienskies.addon.control.nodenetwork.IForceTile|getForceOutputNormal|(DLorg/valkyrienskies/mod/common/physics/management/PhysicsObject;)Lorg/valkyrienskies/mod/common/coordinates/VectorImmutable;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5027|5041|secondsToApply|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|secondsToApply|4
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5045|5065|PhysicsWrapperEntity|class|org.valkyrienskies.mod.common.entity.PhysicsWrapperEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5067|5077|shipEntity|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|shipEntity|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5079|5095|getPhysicsObject|method|org.valkyrienskies.mod.common.entity.PhysicsWrapperEntity|getPhysicsObject|()Lorg/valkyrienskies/mod/common/physics/management/PhysicsObject;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5124|5130|Vector|class|org.valkyrienskies.mod.common.math.Vector|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5139|5142|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5143|5147|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5177|5181|getX|method|org.valkyrienskies.mod.common.coordinates.VectorImmutable|getX|()D
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5201|5204|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5205|5209|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5239|5243|getY|method|org.valkyrienskies.mod.common.coordinates.VectorImmutable|getY|()D
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5263|5266|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getCustomBlockForcePosition|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5267|5271|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5301|5305|getZ|method|org.valkyrienskies.mod.common.coordinates.VectorImmutable|getZ|()D
+   Method End: getCustomBlockForcePosition(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;D)Lorg/valkyrienskies/mod/common/math/Vector;
+   Method Start: canConnectRedstone(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5433|5438|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5453|5458|world|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|world|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5469|5472|pos|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|pos|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5485|5489|face|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|face|3
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5402|5420|canConnectRedstone|method|net.minecraft.block.Block|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5421|5432|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5440|5452|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5460|5468|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5474|5484|EnumFacing|class|net.minecraft.util.EnumFacing|false
+   Method End: canConnectRedstone(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+   Method Start: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5583|5588|state|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5597|5601|rand|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5607|5614|fortune|param|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5530|5538|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5551|5555|Item|class|net.minecraft.item.Item|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5556|5570|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5571|5582|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5590|5596|Random|class|java.util.Random|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5639|5643|Item|class|net.minecraft.item.Item|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5644|5660|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5661|5670|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|5671|5689|BLOCK_PLASMAENGINE|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMAENGINE
+   Method End: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+Class End  : com.ice2670.plasmaengine.blocks.BlockPlasmaEngine
+endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java"
+
+startProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java" md5: bbd3e8b66164978bd56ff62003d22316
+@|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|8|39|com.ice2670.plasmaengine.blocks|package|com.ice2670.plasmaengine.blocks|(file)
+Class Start: com.ice2670.plasmaengine.blocks.BlockTemperedGlass
+   @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|439|457|BlockTemperedGlass|class|com.ice2670.plasmaengine.blocks.BlockTemperedGlass|false
+   @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|466|475|BlockBase|class|com.ice2670.plasmaengine.blocks.BlockBase|false
+   Method Start: BlockTemperedGlass(Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|516|520|name|param|com.ice2670.plasmaengine.blocks.BlockTemperedGlass|BlockTemperedGlass|(Ljava/lang/String;)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|490|508|BlockTemperedGlass|method|com.ice2670.plasmaengine.blocks.BlockTemperedGlass|BlockTemperedGlass|(Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|509|515|String|class|java.lang.String|false
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|544|548|name|param|com.ice2670.plasmaengine.blocks.BlockTemperedGlass|BlockTemperedGlass|(Ljava/lang/String;)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|550|558|Material|class|net.minecraft.block.material.Material|false
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|559|564|GLASS|field|net.minecraft.block.material.Material|GLASS
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|576|590|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|591|608|ValkyrienSkiesMod|class|org.valkyrienskies.mod.common.ValkyrienSkiesMod|false
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|609|624|VS_CREATIVE_TAB|field|org.valkyrienskies.mod.common.ValkyrienSkiesMod|VS_CREATIVE_TAB
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|636|648|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|649|658|SoundType|class|net.minecraft.block.SoundType|false
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|659|664|GLASS|field|net.minecraft.block.SoundType|GLASS
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|676|687|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|706|719|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|738|753|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+   Method End: BlockTemperedGlass(Ljava/lang/String;)V
+   Method Start: getRenderLayer()Lnet/minecraft/util/BlockRenderLayer;
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|784|792|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|793|797|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|798|804|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|818|834|BlockRenderLayer|class|net.minecraft.util.BlockRenderLayer|false
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|835|849|getRenderLayer|method|net.minecraft.block.Block|getRenderLayer|()Lnet/minecraft/util/BlockRenderLayer;
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|875|891|BlockRenderLayer|class|net.minecraft.util.BlockRenderLayer|false
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|892|898|CUTOUT|field|net.minecraft.util.BlockRenderLayer|CUTOUT
+   Method End: getRenderLayer()Lnet/minecraft/util/BlockRenderLayer;
+   Method Start: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|956|961|state|param|com.ice2670.plasmaengine.blocks.BlockTemperedGlass|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|931|943|isOpaqueCube|method|net.minecraft.block.Block|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|944|955|IBlockState|class|net.minecraft.block.state.IBlockState|false
+   Method End: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+Class End  : com.ice2670.plasmaengine.blocks.BlockTemperedGlass
+endProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java"
+
+startProcessing "com/ice2670/plasmaengine/init/BlockInit.java" md5: 26932c3bf7c7ace5220643b0043390c0
+@|com/ice2670/plasmaengine/init/BlockInit.java|8|37|com.ice2670.plasmaengine.init|package|com.ice2670.plasmaengine.init|(file)
+Class Start: com.ice2670.plasmaengine.init.BlockInit
+   @|com/ice2670/plasmaengine/init/BlockInit.java|236|245|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|278|283|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|273|277|List|class|java.util.List|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|273|277|List|class|java.util.List|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|278|283|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|285|291|BLOCKS|field|com.ice2670.plasmaengine.init.BlockInit|BLOCKS|
+   @|com/ice2670/plasmaengine/init/BlockInit.java|298|307|ArrayList|class|java.util.ArrayList|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|308|313|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|345|350|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|345|350|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|351|370|BLOCK_TEMPEREDGLASS|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_TEMPEREDGLASS|
+   @|com/ice2670/plasmaengine/init/BlockInit.java|377|395|BlockTemperedGlass|class|com.ice2670.plasmaengine.blocks.BlockTemperedGlass|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|442|447|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|442|447|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|448|470|BLOCK_PLASMACONTROLLER|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMACONTROLLER|
+   @|com/ice2670/plasmaengine/init/BlockInit.java|477|498|BlockPlasmaController|class|com.ice2670.plasmaengine.blocks.BlockPlasmaController|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|551|556|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|551|556|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|557|575|BLOCK_PLASMAENGINE|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMAENGINE|
+   @|com/ice2670/plasmaengine/init/BlockInit.java|582|599|BlockPlasmaEngine|class|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|false
+Class End  : com.ice2670.plasmaengine.init.BlockInit
+endProcessing "com/ice2670/plasmaengine/init/BlockInit.java"
+
+startProcessing "com/ice2670/plasmaengine/init/ItemInit.java" md5: 3e9da01c59a12580c754c0a400338fdb
+@|com/ice2670/plasmaengine/init/ItemInit.java|8|37|com.ice2670.plasmaengine.init|package|com.ice2670.plasmaengine.init|(file)
+Class Start: com.ice2670.plasmaengine.init.ItemInit
+   @|com/ice2670/plasmaengine/init/ItemInit.java|191|199|ItemInit|class|com.ice2670.plasmaengine.init.ItemInit|false
+   @|com/ice2670/plasmaengine/init/ItemInit.java|234|238|Item|class|net.minecraft.item.Item|false
+   @|com/ice2670/plasmaengine/init/ItemInit.java|229|233|List|class|java.util.List|false
+   @|com/ice2670/plasmaengine/init/ItemInit.java|229|233|List|class|java.util.List|false
+   @|com/ice2670/plasmaengine/init/ItemInit.java|234|238|Item|class|net.minecraft.item.Item|false
+   @|com/ice2670/plasmaengine/init/ItemInit.java|240|245|ITEMS|field|com.ice2670.plasmaengine.init.ItemInit|ITEMS|
+   @|com/ice2670/plasmaengine/init/ItemInit.java|252|261|ArrayList|class|java.util.ArrayList|false
+   @|com/ice2670/plasmaengine/init/ItemInit.java|262|266|Item|class|net.minecraft.item.Item|false
+Class End  : com.ice2670.plasmaengine.init.ItemInit
+endProcessing "com/ice2670/plasmaengine/init/ItemInit.java"
+
+startProcessing "com/ice2670/plasmaengine/proxy/ClientProxy.java" md5: 15a19ef6390a3e108040b43c62a1c490
+@|com/ice2670/plasmaengine/proxy/ClientProxy.java|8|38|com.ice2670.plasmaengine.proxy|package|com.ice2670.plasmaengine.proxy|(file)
+Class Start: com.ice2670.plasmaengine.proxy.ClientProxy
+   @|com/ice2670/plasmaengine/proxy/ClientProxy.java|357|368|ClientProxy|class|com.ice2670.plasmaengine.proxy.ClientProxy|false
+   @|com/ice2670/plasmaengine/proxy/ClientProxy.java|377|388|CommonProxy|class|com.ice2670.plasmaengine.proxy.CommonProxy|false
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|451|455|item|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|461|465|meta|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|474|476|id|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|399|407|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|425|445|registerItemRenderer|method|com.ice2670.plasmaengine.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|446|450|Item|class|net.minecraft.item.Item|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|467|473|String|class|java.lang.String|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|494|505|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|506|536|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|537|541|item|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|543|547|meta|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|553|574|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|575|579|item|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|580|595|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|599|601|id|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+   Method Start: registerVariantRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|675|679|item|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|item|0
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|685|689|meta|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|meta|1
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|698|706|filename|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|filename|2
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|715|717|id|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|id|3
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|620|628|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|646|669|registerVariantRenderer|method|com.ice2670.plasmaengine.proxy.CommonProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|670|674|Item|class|net.minecraft.item.Item|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|691|697|String|class|java.lang.String|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|708|714|String|class|java.lang.String|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|735|746|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|747|777|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|778|782|item|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|item|0
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|784|788|meta|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|meta|1
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|794|815|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|820|836|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|837|846|Reference|class|com.ice2670.plasmaengine.util.Reference|false
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|847|852|MODID|field|com.ice2670.plasmaengine.util.Reference|MODID
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|854|862|filename|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|filename|2
+      @|com/ice2670/plasmaengine/proxy/ClientProxy.java|865|867|id|param|com.ice2670.plasmaengine.proxy.ClientProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|id|3
+   Method End: registerVariantRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V
+Class End  : com.ice2670.plasmaengine.proxy.ClientProxy
+endProcessing "com/ice2670/plasmaengine/proxy/ClientProxy.java"
+
+startProcessing "com/ice2670/plasmaengine/proxy/CommonProxy.java" md5: ccd9de011159dff50749395ff9aef4d0
+@|com/ice2670/plasmaengine/proxy/CommonProxy.java|8|38|com.ice2670.plasmaengine.proxy|package|com.ice2670.plasmaengine.proxy|(file)
+Class Start: com.ice2670.plasmaengine.proxy.CommonProxy
+   @|com/ice2670/plasmaengine/proxy/CommonProxy.java|137|148|CommonProxy|class|com.ice2670.plasmaengine.proxy.CommonProxy|false
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|194|198|item|param|com.ice2670.plasmaengine.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|204|208|meta|param|com.ice2670.plasmaengine.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|217|219|id|param|com.ice2670.plasmaengine.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|168|188|registerItemRenderer|method|com.ice2670.plasmaengine.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|189|193|Item|class|net.minecraft.item.Item|false
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|210|216|String|class|java.lang.String|false
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+   Method Start: registerVariantRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|274|278|item|param|com.ice2670.plasmaengine.proxy.CommonProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|item|0
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|284|288|meta|param|com.ice2670.plasmaengine.proxy.CommonProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|meta|1
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|297|305|filename|param|com.ice2670.plasmaengine.proxy.CommonProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|filename|2
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|314|316|id|param|com.ice2670.plasmaengine.proxy.CommonProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V|id|3
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|245|268|registerVariantRenderer|method|com.ice2670.plasmaengine.proxy.CommonProxy|registerVariantRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|269|273|Item|class|net.minecraft.item.Item|false
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|290|296|String|class|java.lang.String|false
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|307|313|String|class|java.lang.String|false
+   Method End: registerVariantRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;Ljava/lang/String;)V
+   Method Start: registerEntityRenders()V
+      @|com/ice2670/plasmaengine/proxy/CommonProxy.java|342|363|registerEntityRenders|method|com.ice2670.plasmaengine.proxy.CommonProxy|registerEntityRenders|()V
+   Method End: registerEntityRenders()V
+Class End  : com.ice2670.plasmaengine.proxy.CommonProxy
+endProcessing "com/ice2670/plasmaengine/proxy/CommonProxy.java"
+
+startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java" md5: 4b8399457525c40df0856d91ebbd4cbd
+@|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|8|45|com.ice2670.plasmaengine.tileentities|package|com.ice2670.plasmaengine.tileentities|(file)
+Class Start: com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl
+   @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|432|455|TileEntityPlasmaControl|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|464|474|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|487|492|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|power|
+   Method Start: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|542|545|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|515|526|readFromNBT|method|net.minecraft.tileentity.TileEntity|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|527|541|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|563|574|readFromNBT|method|net.minecraft.tileentity.TileEntity|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|575|578|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|596|599|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|600|606|hasKey|method|net.minecraft.nbt.NBTTagCompound|hasKey|(Ljava/lang/String;)Z
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|646|651|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|654|657|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|658|668|getInteger|method|net.minecraft.nbt.NBTTagCompound|getInteger|(Ljava/lang/String;)I
+   Method End: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V
+   Method Start: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|769|772|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|707|715|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|728|742|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|743|753|writeToNBT|method|net.minecraft.tileentity.TileEntity|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|754|768|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|791|801|writeToNBT|method|net.minecraft.tileentity.TileEntity|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|802|805|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|817|820|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|821|831|setInteger|method|net.minecraft.nbt.NBTTagCompound|setInteger|(Ljava/lang/String;I)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|846|851|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|870|873|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+   Method End: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+   Method Start: getUpdatePacket()Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|890|898|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|905|913|Nullable|class|javax.annotation.Nullable|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|926|949|SPacketUpdateTileEntity|class|net.minecraft.network.play.server.SPacketUpdateTileEntity|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|950|965|getUpdatePacket|method|net.minecraft.tileentity.TileEntity|getUpdatePacket|()Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|990|1013|SPacketUpdateTileEntity|class|net.minecraft.network.play.server.SPacketUpdateTileEntity|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1019|1022|pos|field|net.minecraft.tileentity.TileEntity|pos
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1032|1044|getUpdateTag|method|net.minecraft.tileentity.TileEntity|getUpdateTag|()Lnet/minecraft/nbt/NBTTagCompound;
+   Method End: getUpdatePacket()Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;
+   Method Start: getUpdateTag()Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1064|1072|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1085|1099|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1100|1112|getUpdateTag|method|net.minecraft.tileentity.TileEntity|getUpdateTag|()Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1138|1148|writeToNBT|method|net.minecraft.tileentity.TileEntity|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1153|1167|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+   Method End: getUpdateTag()Lnet/minecraft/nbt/NBTTagCompound;
+   Method Start: onDataPacket(Lnet/minecraft/network/NetworkManager;Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1241|1244|net|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|onDataPacket|(Lnet/minecraft/network/NetworkManager;Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;)V|net|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1270|1273|pkt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|onDataPacket|(Lnet/minecraft/network/NetworkManager;Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;)V|pkt|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1187|1195|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1213|1225|onDataPacket|method|net.minecraft.tileentity.TileEntity|onDataPacket|(Lnet/minecraft/network/NetworkManager;Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1226|1240|NetworkManager|class|net.minecraft.network.NetworkManager|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1246|1269|SPacketUpdateTileEntity|class|net.minecraft.network.play.server.SPacketUpdateTileEntity|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1292|1304|onDataPacket|method|net.minecraft.tileentity.TileEntity|onDataPacket|(Lnet/minecraft/network/NetworkManager;Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1305|1308|net|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|onDataPacket|(Lnet/minecraft/network/NetworkManager;Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;)V|net|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1310|1313|pkt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|onDataPacket|(Lnet/minecraft/network/NetworkManager;Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;)V|pkt|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1325|1340|handleUpdateTag|method|net.minecraft.tileentity.TileEntity|handleUpdateTag|(Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1341|1344|pkt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|onDataPacket|(Lnet/minecraft/network/NetworkManager;Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;)V|pkt|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1345|1359|getNbtCompound|method|net.minecraft.network.play.server.SPacketUpdateTileEntity|getNbtCompound|()Lnet/minecraft/nbt/NBTTagCompound;
+   Method End: onDataPacket(Lnet/minecraft/network/NetworkManager;Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;)V
+   Method Start: getState()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1386|1397|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1398|1406|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1427|1432|world|field|net.minecraft.tileentity.TileEntity|world
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1433|1446|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1447|1450|pos|field|net.minecraft.tileentity.TileEntity|pos
+   Method End: getState()Lnet/minecraft/block/state/IBlockState;
+   Method Start: getPower()I
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1466|1474|Nullable|class|javax.annotation.Nullable|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1491|1499|getPower|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|getPower|()I
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1516|1521|world|field|net.minecraft.tileentity.TileEntity|world
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1522|1536|isBlockPowered|method|net.minecraft.world.World|isBlockPowered|(Lnet/minecraft/util/math/BlockPos;)Z
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1537|1540|pos|field|net.minecraft.tileentity.TileEntity|pos
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1562|1567|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1609|1614|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|1652|1657|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|power
+   Method End: getPower()I
+Class End  : com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl
+endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java"
+
+startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java" md5: b3b564e571a54a99a7e0a5f14665461d
+@|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|8|45|com.ice2670.plasmaengine.tileentities|package|com.ice2670.plasmaengine.tileentities|(file)
+Class Start: com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine
+   @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|796|818|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|827|851|BasicForceNodeTileEntity|class|org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|871|876|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|power|
+   Method Start: getState()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|897|908|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|909|917|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|938|943|world|field|net.minecraft.tileentity.TileEntity|world
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|944|957|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|958|961|pos|field|net.minecraft.tileentity.TileEntity|pos
+   Method End: getState()Lnet/minecraft/block/state/IBlockState;
+   Method Start: TileEntityPlasmaEngine()V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|985|1007|TileEntityPlasmaEngine|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|TileEntityPlasmaEngine|()V
+   Method End: TileEntityPlasmaEngine()V
+   Method Start: TileEntityPlasmaEngine(Lorg/valkyrienskies/mod/common/math/Vector;ZD)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1081|1106|normalVeclocityUnoriented|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|TileEntityPlasmaEngine|(Lorg/valkyrienskies/mod/common/math/Vector;ZD)V|normalVeclocityUnoriented|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1116|1137|isForceOutputOriented|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|TileEntityPlasmaEngine|(Lorg/valkyrienskies/mod/common/math/Vector;ZD)V|isForceOutputOriented|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1146|1155|maxThrust|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|TileEntityPlasmaEngine|(Lorg/valkyrienskies/mod/common/math/Vector;ZD)V|maxThrust|2
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1051|1073|TileEntityPlasmaEngine|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|TileEntityPlasmaEngine|(Lorg/valkyrienskies/mod/common/math/Vector;ZD)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1074|1080|Vector|class|org.valkyrienskies.mod.common.math.Vector|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1174|1199|normalVeclocityUnoriented|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|TileEntityPlasmaEngine|(Lorg/valkyrienskies/mod/common/math/Vector;ZD)V|normalVeclocityUnoriented|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1201|1222|isForceOutputOriented|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|TileEntityPlasmaEngine|(Lorg/valkyrienskies/mod/common/math/Vector;ZD)V|isForceOutputOriented|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1224|1233|maxThrust|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|TileEntityPlasmaEngine|(Lorg/valkyrienskies/mod/common/math/Vector;ZD)V|maxThrust|2
+   Method End: TileEntityPlasmaEngine(Lorg/valkyrienskies/mod/common/math/Vector;ZD)V
+   Method Start: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1291|1294|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1264|1275|readFromNBT|method|net.minecraft.tileentity.TileEntity|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1276|1290|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1312|1323|readFromNBT|method|net.minecraft.tileentity.TileEntity|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1324|1327|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1345|1348|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1349|1355|hasKey|method|net.minecraft.nbt.NBTTagCompound|hasKey|(Ljava/lang/String;)Z
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1396|1401|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1404|1407|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1408|1418|getInteger|method|net.minecraft.nbt.NBTTagCompound|getInteger|(Ljava/lang/String;)I
+   Method End: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V
+   Method Start: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1519|1522|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1457|1465|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1478|1492|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1493|1503|writeToNBT|method|net.minecraft.tileentity.TileEntity|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1504|1518|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1541|1551|writeToNBT|method|net.minecraft.tileentity.TileEntity|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1552|1555|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1567|1570|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1571|1581|setInteger|method|net.minecraft.nbt.NBTTagCompound|setInteger|(Ljava/lang/String;I)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1596|1601|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1620|1623|nbt|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|nbt|0
+   Method End: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+   Method Start: getUpdateTag()Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1640|1648|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1661|1675|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1676|1688|getUpdateTag|method|net.minecraft.tileentity.TileEntity|getUpdateTag|()Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1708|1720|getUpdateTag|method|net.minecraft.tileentity.TileEntity|getUpdateTag|()Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1745|1755|writeToNBT|method|net.minecraft.tileentity.TileEntity|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1760|1774|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+   Method End: getUpdateTag()Lnet/minecraft/nbt/NBTTagCompound;
+   Method Start: setThrust(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1821|1828|worldIn|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1839|1842|pos|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1856|1861|state|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|state|2
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1805|1814|setThrust|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1815|1820|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1830|1838|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1844|1855|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1875|1885|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1900|1910|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1912|1917|state|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|state|2
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1918|1926|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1927|1933|FACING|field|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|FACING
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1960|1963|pos|field|net.minecraft.tileentity.TileEntity|pos
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1964|1968|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1994|1997|pos|field|net.minecraft.tileentity.TileEntity|pos
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|1998|2002|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2028|2031|pos|field|net.minecraft.tileentity.TileEntity|pos
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2032|2036|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2053|2061|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2101|2111|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2112|2117|NORTH|field|net.minecraft.util.EnumFacing|NORTH
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2203|2211|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2247|2254|worldIn|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2255|2268|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2275|2283|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2289|2298|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2299|2321|BLOCK_PLASMACONTROLLER|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMACONTROLLER
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2403|2408|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2435|2440|world|field|net.minecraft.tileentity.TileEntity|world
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2441|2458|notifyBlockUpdate|method|net.minecraft.world.World|notifyBlockUpdate|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2459|2462|pos|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2464|2472|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2476|2484|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2596|2606|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2607|2612|SOUTH|field|net.minecraft.util.EnumFacing|SOUTH
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2698|2706|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2742|2749|worldIn|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2750|2763|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2770|2778|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2784|2793|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2794|2816|BLOCK_PLASMACONTROLLER|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMACONTROLLER
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2898|2903|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2930|2935|world|field|net.minecraft.tileentity.TileEntity|world
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2936|2953|notifyBlockUpdate|method|net.minecraft.world.World|notifyBlockUpdate|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2954|2957|pos|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2959|2967|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|2971|2979|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3091|3101|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3102|3106|EAST|field|net.minecraft.util.EnumFacing|EAST
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3192|3200|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3234|3241|worldIn|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3242|3255|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3262|3270|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3276|3285|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3286|3308|BLOCK_PLASMACONTROLLER|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMACONTROLLER
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3390|3395|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3422|3427|world|field|net.minecraft.tileentity.TileEntity|world
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3428|3445|notifyBlockUpdate|method|net.minecraft.world.World|notifyBlockUpdate|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3446|3449|pos|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3451|3459|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3463|3471|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3581|3591|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3592|3596|WEST|field|net.minecraft.util.EnumFacing|WEST
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3682|3690|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3724|3731|worldIn|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3732|3745|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3752|3760|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3766|3775|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3776|3798|BLOCK_PLASMACONTROLLER|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMACONTROLLER
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3880|3885|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3912|3917|world|field|net.minecraft.tileentity.TileEntity|world
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3918|3935|notifyBlockUpdate|method|net.minecraft.world.World|notifyBlockUpdate|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3936|3939|pos|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3941|3949|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|3953|3961|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4071|4081|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4082|4084|UP|field|net.minecraft.util.EnumFacing|UP
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4170|4178|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4212|4219|worldIn|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4220|4233|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4240|4248|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4254|4263|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4264|4286|BLOCK_PLASMACONTROLLER|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMACONTROLLER
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4368|4373|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4400|4405|world|field|net.minecraft.tileentity.TileEntity|world
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4406|4423|notifyBlockUpdate|method|net.minecraft.world.World|notifyBlockUpdate|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4424|4427|pos|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4429|4437|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4441|4449|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4559|4569|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4570|4574|DOWN|field|net.minecraft.util.EnumFacing|DOWN
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4660|4668|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4702|4709|worldIn|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4710|4723|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4730|4738|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4744|4753|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4754|4776|BLOCK_PLASMACONTROLLER|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMACONTROLLER
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4858|4863|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|power
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4890|4895|world|field|net.minecraft.tileentity.TileEntity|world
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4896|4913|notifyBlockUpdate|method|net.minecraft.world.World|notifyBlockUpdate|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4914|4917|pos|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setThrust|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4919|4927|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|4931|4939|getState|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|getState|()Lnet/minecraft/block/state/IBlockState;
+   Method End: setThrust(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
+   Method Start: displayPower(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5072|5080|playerIn|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|displayPower|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5046|5058|displayPower|method|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|displayPower|(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5059|5071|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5092|5098|String|class|java.lang.String|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5105|5111|Double|class|java.lang.Double|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5112|5120|toString|method|java.lang.Double|toString|(D)Ljava/lang/String;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5127|5136|maxThrust|field|org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity|maxThrust
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5151|5156|world|field|net.minecraft.tileentity.TileEntity|world
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5157|5165|isRemote|field|net.minecraft.world.World|isRemote
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5182|5190|playerIn|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|displayPower|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5191|5202|sendMessage|method|net.minecraft.command.ICommandSender|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5207|5226|TextComponentString|class|net.minecraft.util.text.TextComponentString|false
+   Method End: displayPower(Lnet/minecraft/entity/player/EntityPlayer;)V
+   Method Start: setMaxThrust(D)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5319|5328|maxThrust|param|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|setMaxThrust|(D)V|maxThrust|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5273|5281|Override|class|java.lang.Override|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5299|5311|setMaxThrust|method|org.valkyrienskies.addon.control.nodenetwork.IForceTile|setMaxThrust|(D)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5347|5356|maxThrust|field|org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity|maxThrust
+      @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java|5367|5372|power|field|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|power
+   Method End: setMaxThrust(D)V
+Class End  : com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine
+endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java"
+
+startProcessing "com/ice2670/plasmaengine/util/IHasModel.java" md5: ecd6d4f658e17cdc365be641bf5ab234
+@|com/ice2670/plasmaengine/util/IHasModel.java|8|37|com.ice2670.plasmaengine.util|package|com.ice2670.plasmaengine.util|(file)
+Class Start: com.ice2670.plasmaengine.util.IHasModel
+   @|com/ice2670/plasmaengine/util/IHasModel.java|105|114|IHasModel|class|com.ice2670.plasmaengine.util.IHasModel|false
+   Method Start: registerModels()V
+      @|com/ice2670/plasmaengine/util/IHasModel.java|134|148|registerModels|method|com.ice2670.plasmaengine.util.IHasModel|registerModels|()V
+   Method End: registerModels()V
+Class End  : com.ice2670.plasmaengine.util.IHasModel
+endProcessing "com/ice2670/plasmaengine/util/IHasModel.java"
+
+startProcessing "com/ice2670/plasmaengine/util/Reference.java" md5: 633ca64044aeeec8e4181b8300eb547d
+@|com/ice2670/plasmaengine/util/Reference.java|8|37|com.ice2670.plasmaengine.util|package|com.ice2670.plasmaengine.util|(file)
+Class Start: com.ice2670.plasmaengine.util.Reference
+   @|com/ice2670/plasmaengine/util/Reference.java|101|110|Reference|class|com.ice2670.plasmaengine.util.Reference|false
+   @|com/ice2670/plasmaengine/util/Reference.java|138|144|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|138|144|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|145|150|MODID|field|com.ice2670.plasmaengine.util.Reference|MODID|
+   @|com/ice2670/plasmaengine/util/Reference.java|195|201|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|195|201|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|202|206|NAME|field|com.ice2670.plasmaengine.util.Reference|NAME|
+   @|com/ice2670/plasmaengine/util/Reference.java|250|256|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|250|256|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|257|264|VERSION|field|com.ice2670.plasmaengine.util.Reference|VERSION|
+   @|com/ice2670/plasmaengine/util/Reference.java|299|305|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|299|305|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|306|312|CLIENT|field|com.ice2670.plasmaengine.util.Reference|CLIENT|
+   @|com/ice2670/plasmaengine/util/Reference.java|386|392|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|386|392|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|393|399|COMMON|field|com.ice2670.plasmaengine.util.Reference|COMMON|
+Class End  : com.ice2670.plasmaengine.util.Reference
+endProcessing "com/ice2670/plasmaengine/util/Reference.java"
+
+startProcessing "com/ice2670/plasmaengine/util/handlers/RegistryHandler.java" md5: 9bd177aacb848c0eb383355358e50c2c
+@|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|8|46|com.ice2670.plasmaengine.util.handlers|package|com.ice2670.plasmaengine.util.handlers|(file)
+Class Start: com.ice2670.plasmaengine.util.handlers.RegistryHandler
+   @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|600|618|EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|619|624|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+   @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|627|636|Reference|class|com.ice2670.plasmaengine.util.Reference|false
+   @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|637|642|MODID|field|com.ice2670.plasmaengine.util.Reference|MODID
+   @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|658|673|RegistryHandler|class|com.ice2670.plasmaengine.util.handlers.RegistryHandler|false
+   Method Start: onItemRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|765|770|event|param|com.ice2670.plasmaengine.util.handlers.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|682|696|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|721|735|onItemRegister|method|com.ice2670.plasmaengine.util.handlers.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|736|758|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|759|763|Item|class|net.minecraft.item.Item|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|788|793|event|param|com.ice2670.plasmaengine.util.handlers.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|794|805|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|808|819|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|820|828|ItemInit|class|com.ice2670.plasmaengine.init.ItemInit|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|829|834|ITEMS|field|com.ice2670.plasmaengine.init.ItemInit|ITEMS
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|835|842|toArray|method|java.util.Collection|toArray|([Ljava/lang/Object;)[Ljava/lang/Object;
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|847|851|Item|class|net.minecraft.item.Item|false
+   Method End: onItemRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: onBlockRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|958|963|event|param|com.ice2670.plasmaengine.util.handlers.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|873|887|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|912|927|onBlockRegister|method|com.ice2670.plasmaengine.util.handlers.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|928|950|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|951|956|Block|class|net.minecraft.block.Block|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|981|986|event|param|com.ice2670.plasmaengine.util.handlers.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|987|998|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1001|1012|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1013|1022|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1023|1029|BLOCKS|field|com.ice2670.plasmaengine.init.BlockInit|BLOCKS
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1030|1037|toArray|method|java.util.Collection|toArray|([Ljava/lang/Object;)[Ljava/lang/Object;
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1042|1047|Block|class|net.minecraft.block.Block|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1063|1080|TileEntityHandler|class|com.ice2670.plasmaengine.util.handlers.TileEntityHandler|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1081|1101|registerTileEntities|method|com.ice2670.plasmaengine.util.handlers.TileEntityHandler|registerTileEntities|()V
+   Method End: onBlockRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: onModelRegister(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1194|1199|event|param|com.ice2670.plasmaengine.util.handlers.RegistryHandler|onModelRegister|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1120|1134|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1159|1174|onModelRegister|method|com.ice2670.plasmaengine.util.handlers.RegistryHandler|onModelRegister|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1175|1193|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1221|1225|Item|class|net.minecraft.item.Item|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1233|1241|ItemInit|class|com.ice2670.plasmaengine.init.ItemInit|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1242|1247|ITEMS|field|com.ice2670.plasmaengine.init.ItemInit|ITEMS
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1292|1301|IHasModel|class|com.ice2670.plasmaengine.util.IHasModel|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1337|1346|IHasModel|class|com.ice2670.plasmaengine.util.IHasModel|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1353|1367|registerModels|method|com.ice2670.plasmaengine.util.IHasModel|registerModels|()V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1412|1417|Block|class|net.minecraft.block.Block|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1426|1435|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1436|1442|BLOCKS|field|com.ice2670.plasmaengine.init.BlockInit|BLOCKS
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1488|1497|IHasModel|class|com.ice2670.plasmaengine.util.IHasModel|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1533|1542|IHasModel|class|com.ice2670.plasmaengine.util.IHasModel|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1550|1564|registerModels|method|com.ice2670.plasmaengine.util.IHasModel|registerModels|()V
+   Method End: onModelRegister(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Method Start: preInitRegistries()V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1627|1644|preInitRegistries|method|com.ice2670.plasmaengine.util.handlers.RegistryHandler|preInitRegistries|()V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1663|1680|TileEntityHandler|class|com.ice2670.plasmaengine.util.handlers.TileEntityHandler|false
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1681|1701|registerTileEntities|method|com.ice2670.plasmaengine.util.handlers.TileEntityHandler|registerTileEntities|()V
+   Method End: preInitRegistries()V
+   Method Start: initRegistries()V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1738|1752|initRegistries|method|com.ice2670.plasmaengine.util.handlers.RegistryHandler|initRegistries|()V
+   Method End: initRegistries()V
+   Method Start: postInitRegistries()V
+      @|com/ice2670/plasmaengine/util/handlers/RegistryHandler.java|1797|1815|postInitRegistries|method|com.ice2670.plasmaengine.util.handlers.RegistryHandler|postInitRegistries|()V
+   Method End: postInitRegistries()V
+Class End  : com.ice2670.plasmaengine.util.handlers.RegistryHandler
+endProcessing "com/ice2670/plasmaengine/util/handlers/RegistryHandler.java"
+
+startProcessing "com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java" md5: c47b72ab6dffd1e506524f3bc5d9f69a
+@|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|8|46|com.ice2670.plasmaengine.util.handlers|package|com.ice2670.plasmaengine.util.handlers|(file)
+Class Start: com.ice2670.plasmaengine.util.handlers.TileEntityHandler
+   @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|314|331|TileEntityHandler|class|com.ice2670.plasmaengine.util.handlers.TileEntityHandler|false
+   Method Start: registerTileEntities()V
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|360|380|registerTileEntities|method|com.ice2670.plasmaengine.util.handlers.TileEntityHandler|registerTileEntities|()V
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|399|411|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|412|430|registerTileEntity|method|net.minecraftforge.fml.common.registry.GameRegistry|registerTileEntity|(Ljava/lang/Class;Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|431|453|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|497|509|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|510|528|registerTileEntity|method|net.minecraftforge.fml.common.registry.GameRegistry|registerTileEntity|(Ljava/lang/Class;Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|529|552|TileEntityPlasmaControl|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|false
+   Method End: registerTileEntities()V
+Class End  : com.ice2670.plasmaengine.util.handlers.TileEntityHandler
+endProcessing "com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java"
+
