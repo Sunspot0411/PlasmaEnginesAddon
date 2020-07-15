@@ -80,39 +80,40 @@ Adding 1 imports
 End  Processing: com/ice2670/plasmaengine/blocks/BlockPlasmaController.java
 
 Start Processing: com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java
-Rename method net/minecraft/block/properties/PropertyDirection/create (Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyDirection;[1475,1481]::create->func_177714_a
+Rename method net/minecraft/block/properties/PropertyDirection/create (Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyDirection;[1392,1398]::create->func_177714_a
 FOUND CONSTR method com/ice2670/plasmaengine/blocks/BlockPlasmaEngine/BlockPlasmaEngine (Ljava/lang/String;)V com/ice2670/plasmaengine/blocks/BlockPlasmaEngine
-Rename field net/minecraft/block/material/Material/IRON[1582,1586]::IRON->field_151573_f
-Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1608,1620]::setSoundType->func_149672_a
-Rename field net/minecraft/block/SoundType/METAL[1632,1637]::METAL->field_185852_e
-Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1658,1669]::setHardness->func_149711_c
-Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1690,1703]::setResistance->func_149752_b
-Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1762,1775]::setLightLevel->func_149715_a
-Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[1833,1853]::getStateForPlacement->func_180642_a
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1989,2004]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2005,2017]::withProperty->func_177226_a
-Rename method net/minecraft/util/EnumFacing/getDirectionFromEntityLiving (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/util/EnumFacing;[2038,2066]::getDirectionFromEntityLiving->func_190914_a
-Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[2126,2142]::createBlockState->func_180661_e
-Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[2247,2263]::getStateFromMeta->func_176203_a
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2289,2304]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2305,2317]::withProperty->func_177226_a
-Rename method net/minecraft/util/EnumFacing/byIndex (I)Lnet/minecraft/util/EnumFacing;[2338,2345]::byIndex->func_82600_a
-Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[2399,2415]::getMetaFromState->func_176201_c
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2457,2465]::getValue->func_177229_b
-Rename method net/minecraft/util/EnumFacing/getIndex ()I[2479,2487]::getIndex->func_176745_a
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2813,2821]::getValue->func_177229_b
-Rename method net/minecraft/block/Block/getItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;[2898,2905]::getItem->func_185473_a
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3250,3258]::getValue->func_177229_b
-Rename method net/minecraft/world/World/isBlockPowered (Lnet/minecraft/util/math/BlockPos;)Z[3348,3362]::isBlockPowered->func_175640_z
-Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3464,3477]::getTileEntity->func_175625_s
-Rename method net/minecraft/block/Block/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z[4285,4301]::onBlockActivated->func_180639_a
-Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4483,4496]::getTileEntity->func_175625_s
-Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4855,4868]::getTileEntity->func_175625_s
-Rename method net/minecraft/util/math/Vec3i/getX ()I[5166,5170]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[5237,5241]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[5308,5312]::getZ->func_177952_p
-Rename method net/minecraft/block/Block/getItemDropped (Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;[5606,5620]::getItemDropped->func_180660_a
-Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[5693,5709]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/material/Material/IRON[1499,1503]::IRON->field_151573_f
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1525,1537]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1549,1554]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1575,1586]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1607,1620]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1679,1692]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[1750,1770]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1906,1921]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[1922,1934]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getDirectionFromEntityLiving (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/util/EnumFacing;[1955,1983]::getDirectionFromEntityLiving->func_190914_a
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[2043,2059]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[2164,2180]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2206,2221]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2222,2234]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/byIndex (I)Lnet/minecraft/util/EnumFacing;[2255,2262]::byIndex->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[2316,2332]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2374,2382]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[2396,2404]::getIndex->func_176745_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2751,2759]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[2774,2785]::getOpposite->func_176734_d
+Rename method net/minecraft/util/EnumFacing/getDirectionVec ()Lnet/minecraft/util/math/Vec3i;[2790,2805]::getDirectionVec->func_176730_m
+Rename method net/minecraft/block/Block/getItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;[2870,2877]::getItem->func_185473_a
+Rename method net/minecraft/world/World/isBlockPowered (Lnet/minecraft/util/math/BlockPos;)Z[3263,3277]::isBlockPowered->func_175640_z
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3379,3392]::getTileEntity->func_175625_s
+Rename method net/minecraft/block/Block/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z[4200,4216]::onBlockActivated->func_180639_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4398,4411]::getTileEntity->func_175625_s
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4813,4826]::getTileEntity->func_175625_s
+Rename method net/minecraft/util/math/Vec3i/getX ()I[5079,5083]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[5147,5151]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[5215,5219]::getZ->func_177952_p
+Rename method net/minecraft/block/Block/getItemDropped (Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;[5510,5524]::getItemDropped->func_180660_a
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[5597,5613]::getItemFromBlock->func_150898_a
 Import: com.ice2670.plasmaengine.init.BlockInit
 Import: com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine
 Import: net.minecraft.block.SoundType
@@ -131,12 +132,12 @@ Import: net.minecraft.util.EnumHand
 Import: net.minecraft.util.math.BlockPos
 Import: net.minecraft.world.IBlockAccess
 Import: net.minecraft.world.World
+Import: org.joml.Vector3d
+Import: org.joml.Vector3dc
 Import: org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity
 Import: org.valkyrienskies.mod.common.block.IBlockForceProvider
-Import: org.valkyrienskies.mod.common.coordinates.VectorImmutable
-Import: org.valkyrienskies.mod.common.entity.PhysicsWrapperEntity
-Import: org.valkyrienskies.mod.common.math.Vector
-Import: org.valkyrienskies.mod.common.physics.management.PhysicsObject
+Import: org.valkyrienskies.mod.common.ships.ship_world.PhysicsObject
+Import: org.valkyrienskies.mod.common.util.JOML
 Adding 2 imports
         java.util.Random
         javax.annotation.Nullable
@@ -219,55 +220,55 @@ Adding 1 imports
 End  Processing: com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java
 
 Start Processing: com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java
-Rename field net/minecraft/tileentity/TileEntity/world[938,943]::world->field_145850_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[953,966]::getBlockState->func_180495_p
-Rename field net/minecraft/tileentity/TileEntity/pos[967,970]::pos->field_174879_c
+Rename field net/minecraft/tileentity/TileEntity/world[914,919]::world->field_145850_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[929,942]::getBlockState->func_180495_p
+Rename field net/minecraft/tileentity/TileEntity/pos[943,946]::pos->field_174879_c
 FOUND CONSTR method com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine/TileEntityPlasmaEngine ()V com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine
-FOUND CONSTR method com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine/TileEntityPlasmaEngine (Lorg/valkyrienskies/mod/common/math/Vector;ZD)V com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine
-Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1284,1295]::readFromNBT->func_145839_a
-Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1334,1345]::readFromNBT->func_145839_a
-Rename method net/minecraft/nbt/NBTTagCompound/hasKey (Ljava/lang/String;)Z[1373,1379]::hasKey->func_74764_b
-Rename method net/minecraft/nbt/NBTTagCompound/getInteger (Ljava/lang/String;)I[1438,1448]::getInteger->func_74762_e
-Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1525,1535]::writeToNBT->func_189515_b
-Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1576,1586]::writeToNBT->func_189515_b
-Rename method net/minecraft/nbt/NBTTagCompound/setInteger (Ljava/lang/String;I)V[1609,1619]::setInteger->func_74768_a
-Rename method net/minecraft/tileentity/TileEntity/getUpdateTag ()Lnet/minecraft/nbt/NBTTagCompound;[1716,1728]::getUpdateTag->func_189517_E_
-Rename method net/minecraft/tileentity/TileEntity/getUpdateTag ()Lnet/minecraft/nbt/NBTTagCompound;[1750,1762]::getUpdateTag->func_189517_E_
-Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1789,1799]::writeToNBT->func_189515_b
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[1965,1973]::getValue->func_177229_b
-Rename field net/minecraft/tileentity/TileEntity/pos[2012,2015]::pos->field_174879_c
-Rename method net/minecraft/util/math/Vec3i/getX ()I[2027,2031]::getX->func_177958_n
-Rename field net/minecraft/tileentity/TileEntity/pos[2066,2069]::pos->field_174879_c
-Rename method net/minecraft/util/math/Vec3i/getY ()I[2081,2085]::getY->func_177956_o
-Rename field net/minecraft/tileentity/TileEntity/pos[2120,2123]::pos->field_174879_c
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[2135,2139]::getZ->func_177952_p
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2367,2380]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2387,2395]::getBlock->func_177230_c
-Rename field net/minecraft/tileentity/TileEntity/world[2552,2557]::world->field_145850_b
-Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[2567,2584]::notifyBlockUpdate->func_184138_a
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2872,2885]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2892,2900]::getBlock->func_177230_c
-Rename field net/minecraft/tileentity/TileEntity/world[3057,3062]::world->field_145850_b
-Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[3072,3089]::notifyBlockUpdate->func_184138_a
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3374,3387]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3394,3402]::getBlock->func_177230_c
-Rename field net/minecraft/tileentity/TileEntity/world[3559,3564]::world->field_145850_b
-Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[3574,3591]::notifyBlockUpdate->func_184138_a
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3874,3887]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3894,3902]::getBlock->func_177230_c
-Rename field net/minecraft/tileentity/TileEntity/world[4059,4064]::world->field_145850_b
-Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[4074,4091]::notifyBlockUpdate->func_184138_a
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4372,4385]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4392,4400]::getBlock->func_177230_c
-Rename field net/minecraft/tileentity/TileEntity/world[4557,4562]::world->field_145850_b
-Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[4572,4589]::notifyBlockUpdate->func_184138_a
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4872,4885]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4892,4900]::getBlock->func_177230_c
-Rename field net/minecraft/tileentity/TileEntity/world[5057,5062]::world->field_145850_b
-Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[5072,5089]::notifyBlockUpdate->func_184138_a
-Rename field net/minecraft/tileentity/TileEntity/world[5323,5328]::world->field_145850_b
-Rename field net/minecraft/world/World/isRemote[5338,5346]::isRemote->field_72995_K
-Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[5377,5388]::sendMessage->func_145747_a
+FOUND CONSTR method com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine/TileEntityPlasmaEngine (Lorg/joml/Vector3d;ZD)V com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1262,1273]::readFromNBT->func_145839_a
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1312,1323]::readFromNBT->func_145839_a
+Rename method net/minecraft/nbt/NBTTagCompound/hasKey (Ljava/lang/String;)Z[1351,1357]::hasKey->func_74764_b
+Rename method net/minecraft/nbt/NBTTagCompound/getInteger (Ljava/lang/String;)I[1416,1426]::getInteger->func_74762_e
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1503,1513]::writeToNBT->func_189515_b
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1554,1564]::writeToNBT->func_189515_b
+Rename method net/minecraft/nbt/NBTTagCompound/setInteger (Ljava/lang/String;I)V[1587,1597]::setInteger->func_74768_a
+Rename method net/minecraft/tileentity/TileEntity/getUpdateTag ()Lnet/minecraft/nbt/NBTTagCompound;[1694,1706]::getUpdateTag->func_189517_E_
+Rename method net/minecraft/tileentity/TileEntity/getUpdateTag ()Lnet/minecraft/nbt/NBTTagCompound;[1728,1740]::getUpdateTag->func_189517_E_
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1767,1777]::writeToNBT->func_189515_b
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[1943,1951]::getValue->func_177229_b
+Rename field net/minecraft/tileentity/TileEntity/pos[1990,1993]::pos->field_174879_c
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2005,2009]::getX->func_177958_n
+Rename field net/minecraft/tileentity/TileEntity/pos[2044,2047]::pos->field_174879_c
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2059,2063]::getY->func_177956_o
+Rename field net/minecraft/tileentity/TileEntity/pos[2098,2101]::pos->field_174879_c
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2113,2117]::getZ->func_177952_p
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2345,2358]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2365,2373]::getBlock->func_177230_c
+Rename field net/minecraft/tileentity/TileEntity/world[2530,2535]::world->field_145850_b
+Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[2545,2562]::notifyBlockUpdate->func_184138_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2850,2863]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2870,2878]::getBlock->func_177230_c
+Rename field net/minecraft/tileentity/TileEntity/world[3035,3040]::world->field_145850_b
+Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[3050,3067]::notifyBlockUpdate->func_184138_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3352,3365]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3372,3380]::getBlock->func_177230_c
+Rename field net/minecraft/tileentity/TileEntity/world[3537,3542]::world->field_145850_b
+Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[3552,3569]::notifyBlockUpdate->func_184138_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3852,3865]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3872,3880]::getBlock->func_177230_c
+Rename field net/minecraft/tileentity/TileEntity/world[4037,4042]::world->field_145850_b
+Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[4052,4069]::notifyBlockUpdate->func_184138_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4350,4363]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4370,4378]::getBlock->func_177230_c
+Rename field net/minecraft/tileentity/TileEntity/world[4535,4540]::world->field_145850_b
+Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[4550,4567]::notifyBlockUpdate->func_184138_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4850,4863]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4870,4878]::getBlock->func_177230_c
+Rename field net/minecraft/tileentity/TileEntity/world[5035,5040]::world->field_145850_b
+Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[5050,5067]::notifyBlockUpdate->func_184138_a
+Rename field net/minecraft/tileentity/TileEntity/world[5301,5306]::world->field_145850_b
+Rename field net/minecraft/world/World/isRemote[5316,5324]::isRemote->field_72995_K
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[5355,5366]::sendMessage->func_145747_a
 Import: com.ice2670.plasmaengine.init.BlockInit
 Import: net.minecraft.block.state.IBlockState
 Import: net.minecraft.entity.Entity
@@ -278,8 +279,8 @@ Import: net.minecraft.util.EnumFacing
 Import: net.minecraft.util.math.BlockPos
 Import: net.minecraft.util.text.TextComponentString
 Import: net.minecraft.world.World
+Import: org.joml.Vector3d
 Import: org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity
-Import: org.valkyrienskies.mod.common.math.Vector
 End  Processing: com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java
 
 Start Processing: com/ice2670/plasmaengine/util/IHasModel.java

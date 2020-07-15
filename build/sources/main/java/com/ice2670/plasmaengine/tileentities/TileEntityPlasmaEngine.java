@@ -10,8 +10,8 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
+import org.joml.Vector3d;
 import org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity;
-import org.valkyrienskies.mod.common.math.Vector;
 
 
 import javax.annotation.Nullable;
@@ -36,7 +36,7 @@ public class TileEntityPlasmaEngine extends BasicForceNodeTileEntity
         super();
     }
 
-    public TileEntityPlasmaEngine(Vector normalVeclocityUnoriented, boolean isForceOutputOriented, double maxThrust) {
+    public TileEntityPlasmaEngine(Vector3d normalVeclocityUnoriented, boolean isForceOutputOriented, double maxThrust) {
         super(normalVeclocityUnoriented, isForceOutputOriented, maxThrust);
 
     }

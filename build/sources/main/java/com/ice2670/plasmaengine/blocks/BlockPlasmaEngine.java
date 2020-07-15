@@ -18,12 +18,12 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import org.joml.Vector3d;
+import org.joml.Vector3dc;
 import org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity;
 import org.valkyrienskies.mod.common.block.IBlockForceProvider;
-import org.valkyrienskies.mod.common.coordinates.VectorImmutable;
-import org.valkyrienskies.mod.common.entity.PhysicsWrapperEntity;
-import org.valkyrienskies.mod.common.math.Vector;
-import org.valkyrienskies.mod.common.physics.management.PhysicsObject;
+import org.valkyrienskies.mod.common.ships.ship_world.PhysicsObject;
+import org.valkyrienskies.mod.common.util.JOML;
 
 import javax.annotation.Nullable;
 import java.util.Random;
@@ -72,8 +72,8 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider
 
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        new Vector(1.0D, 0.0D, 0.0D);
-        return new TileEntityPlasmaEngine(new Vector(state.getValue(FACING)), true, 40000D);
+        new Vector3d(1.0D, 0.0D, 0.0D);
+        return new TileEntityPlasmaEngine(JOML.convertTo3d(((EnumFacing)state.getValue(FACING)).getOpposite().getDirectionVec()) , true, 40000D);
     }
 
     @Override
@@ -84,9 +84,8 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider
 
     @Nullable
     @Override
-    public Vector getBlockForceInShipSpace(World world, BlockPos blockPos, IBlockState iBlockState, PhysicsObject physicsObject, double v) {
-        EnumFacing facing = iBlockState.getValue(FACING);
-        Vector acting = new Vector(0.0D, 0.0D, 0.0D);
+    public Vector3dc getBlockForceInShipSpace(World world, BlockPos blockPos, IBlockState iBlockState, PhysicsObject physicsObject, double v) {
+        Vector3d acting = new Vector3d(0.0D, 0.0D, 0.0D);
         if (!world.isBlockPowered(blockPos)) {
             return acting;
         } else {
@@ -117,12 +116,14 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider
         return true;
     }
 
-    public Vector getCustomBlockForcePosition(World world, BlockPos pos, IBlockState state, Entity shipEntity, double secondsToApply) {
+    @Nullable
+    @Override
+    public Vector3dc getCustomBlockForcePosition(World world, BlockPos pos, IBlockState state, PhysicsObject physicsObject, double secondsToApply) {
         TileEntity engineTile = world.getTileEntity(pos);
 
         if (engineTile instanceof BasicForceNodeTileEntity) {
-            VectorImmutable forceOutputNormal = ((BasicForceNodeTileEntity) engineTile).getForceOutputNormal(secondsToApply, ((PhysicsWrapperEntity) shipEntity).getPhysicsObject());
-            return new Vector((double)pos.getX() + 0.5D - forceOutputNormal.getX() * 0.75D, (double)pos.getY() + 0.5D - forceOutputNormal.getY() * 0.75D, (double)pos.getZ() + 0.5D - forceOutputNormal.getZ() * 0.75D);
+            Vector3dc forceOutputNormal = ((BasicForceNodeTileEntity) engineTile).getForceOutputNormal(secondsToApply, physicsObject);
+            return new Vector3d((double)pos.getX() + 0.5D - forceOutputNormal.x() * 0.75D, (double)pos.getY() + 0.5D - forceOutputNormal.y() * 0.75D, (double)pos.getZ() + 0.5D - forceOutputNormal.z() * 0.75D);
         } else {
             return null;
         }

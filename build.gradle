@@ -11,7 +11,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
 
-version = "1.3.3"
+version = "1.3.4"
 group = "com.ice2670.plasmaengines" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "PlasmaEngine"
 
@@ -35,18 +35,55 @@ minecraft {
 
 repositories {
     mavenLocal()
-    maven { url 'https://jitpack.io' }
+    maven { url 'https://jitpack.io'
+    }
+    maven {
+        name = "spongepowered-repo"
+        url = "http://repo.spongepowered.org/maven/"
+    }
+    maven {
+        name = "OpenComputers"
+        url = "http://maven.cil.li/"
+    }
+    maven {
+        name = "Dogforce Games"
+        url = "http://dogforce-games.com/maven"
+    }
+
+    jcenter()
+
     
 }
 
 dependencies {
+
+    // Needs to be present at compile-time because we mix in to spongeforge, however marking it as
+    // compile makes forge load it as a mod in a dev environment, which is very annoying
+
+    // mixin as annotation processor
+
+    // BetterPortals compatibility
+    // deobfCompile 'curse.maven:shadowfacts-forgelin:2785465'
+    // deobfCompile 'curse.maven:betterportals:2883633'
+
+
+    // ODE4j physics engine (https://mvnrepository.com/artifact/org.ode4j/core)
+    // shade group: 'org.ode4j', name: 'core', version: '0.4.0' // 800KB
+    // shade group: 'org.ode4j', name: 'demo', version: '0.4.0'
+
+    // javax inject annotation
+
+
+    // CQEngine for in-memory nonpersistent database
+    // Provides Kryo
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
     //compile "some.group:artifact:version"
-    deobfCompile('com.github.ValkyrienSkies:Valkyrien-Skies:master-SNAPSHOT') {
+    /*deobfCompile('com.github.ValkyrienSkies:Valkyrien-Skies:breaking/1.0-SNAPSHOT') {
         transitive = false
-    }
+    }*/
+    deobfCompile('com.Ice2670:VSb1:0.0.1')
     // real examples
     //compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
     //compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env

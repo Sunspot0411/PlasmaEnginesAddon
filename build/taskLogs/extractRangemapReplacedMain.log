@@ -11,7 +11,7 @@ endProcessing "com/ice2670/plasmaengine/blocks/BlockBase.java"
 startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java" md5: cf809336748535c2dba3c78db61dc93a
 endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java"
 
-startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: d950133e6d923f44c5d8e57e4a5661ff
+startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: 6f4ecfe44aae798af26943fd7876dc8b
 endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java"
 
 startProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java" md5: bbd3e8b66164978bd56ff62003d22316
@@ -32,7 +32,7 @@ endProcessing "com/ice2670/plasmaengine/proxy/CommonProxy.java"
 startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java" md5: 4b8399457525c40df0856d91ebbd4cbd
 endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java"
 
-startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java" md5: b3b564e571a54a99a7e0a5f14665461d
+startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java" md5: 1f85f081c2142f008863271618bbaa2b
 endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java"
 
 startProcessing "com/ice2670/plasmaengine/util/IHasModel.java" md5: ecd6d4f658e17cdc365be641bf5ab234
