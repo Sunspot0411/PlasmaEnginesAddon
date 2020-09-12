@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DGD",
+        " L ",
+        "DGD"
+    ],
+    
+    "key":
+    {
+        "G": {
+            "item": "minecraft:diamond"
+        },
+        "L": {
+            "item": "minecraft:quartz"
+        },
+        "D": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "plasmaengines:enhanced_gyroscope_dampener",
+        "count": 1
+    }
+}

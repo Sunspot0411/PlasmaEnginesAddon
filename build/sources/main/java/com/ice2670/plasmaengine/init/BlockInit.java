@@ -18,4 +18,8 @@ public class BlockInit {
 
     public static final Block BLOCK_PLASMAENGINE = new BlockPlasmaEngine("plasma_engine");
 
+    public static final Block BLOCK_LargeGyroscopeStabilizer = new BlockLargeGyroscopeStabilizer("enhanced_gyroscope_stabilizer");
+
+    public static final Block BLOCK_LargeGyroscopeDampener = new BlockLargeGyroscopeDampener("enhanced_gyroscope_dampener");
+
 }

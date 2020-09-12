@@ -1,7 +1,7 @@
 Unsupposrted library path: D:\Minecraft Modding\PlasmaEnginesAddon\build\classes\api
 Unsupposrted library path: D:\Minecraft Modding\PlasmaEnginesAddon\build\resources\api
 Symbol range map extraction starting
-Processing 15 files
+Processing 19 files
 startProcessing "com/ice2670/plasmaengine/Main.java" md5: db07340e6c88c5d18e234132954e143e
 @|com/ice2670/plasmaengine/Main.java|8|32|com.ice2670.plasmaengine|package|com.ice2670.plasmaengine|(file)
 Class Start: com.ice2670.plasmaengine.Main
@@ -100,6 +100,121 @@ Class Start: com.ice2670.plasmaengine.blocks.BlockBase
    Method End: registerModels()V
 Class End  : com.ice2670.plasmaengine.blocks.BlockBase
 endProcessing "com/ice2670/plasmaengine/blocks/BlockBase.java"
+
+startProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java" md5: 6c507979849338aad1f022293fb88d2a
+@|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|8|39|com.ice2670.plasmaengine.blocks|package|com.ice2670.plasmaengine.blocks|(file)
+Class Start: com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener
+   @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|994|1021|BlockLargeGyroscopeDampener|class|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|false
+   @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1030|1039|BlockBase|class|com.ice2670.plasmaengine.blocks.BlockBase|false
+   @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1051|1070|ITileEntityProvider|class|net.minecraft.block.ITileEntityProvider|false
+   @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1072|1092|IBlockTorqueProvider|class|org.valkyrienskies.mod.common.block.IBlockTorqueProvider|false
+   Method Start: BlockLargeGyroscopeDampener(Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1143|1147|name|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|BlockLargeGyroscopeDampener|(Ljava/lang/String;)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1108|1135|BlockLargeGyroscopeDampener|method|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|BlockLargeGyroscopeDampener|(Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1136|1142|String|class|java.lang.String|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1171|1175|name|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|BlockLargeGyroscopeDampener|(Ljava/lang/String;)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1177|1185|Material|class|net.minecraft.block.material.Material|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1186|1190|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1202|1216|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1217|1234|ValkyrienSkiesMod|class|org.valkyrienskies.mod.common.ValkyrienSkiesMod|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1235|1250|VS_CREATIVE_TAB|field|org.valkyrienskies.mod.common.ValkyrienSkiesMod|VS_CREATIVE_TAB
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1262|1274|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1275|1284|SoundType|class|net.minecraft.block.SoundType|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1285|1290|METAL|field|net.minecraft.block.SoundType|METAL
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1302|1313|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1331|1344|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1362|1377|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+   Method End: BlockLargeGyroscopeDampener(Ljava/lang/String;)V
+   Method Start: getTorqueInGlobal(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1736|1755|physicsCalculations|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1766|1769|pos|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1688|1697|Vector3dc|class|org.joml.Vector3dc|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1698|1715|getTorqueInGlobal|method|org.valkyrienskies.mod.common.block.IBlockTorqueProvider|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1716|1735|PhysicsCalculations|class|org.valkyrienskies.mod.common.physics.PhysicsCalculations|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1757|1765|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1782|1792|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1804|1818|ValkyrienUtils|class|org.valkyrienskies.mod.common.util.ValkyrienUtils|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1819|1836|getTileEntitySafe|method|org.valkyrienskies.mod.common.util.ValkyrienUtils|getTileEntitySafe|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1837|1856|physicsCalculations|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1857|1866|getParent|method|org.valkyrienskies.mod.common.physics.PhysicsCalculations|getParent|()Lorg/valkyrienskies/mod/common/ships/ship_world/PhysicsObject;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1869|1877|getWorld|method|org.valkyrienskies.mod.common.ships.ship_world.PhysicsObject|getWorld|()Lnet/minecraft/world/World;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1881|1884|pos|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1920|1952|TileEntityLargeGyroscopeDampener|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|1969|2001|TileEntityLargeGyroscopeDampener|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|2019|2051|TileEntityLargeGyroscopeDampener|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|2096|2113|getTorqueInGlobal|method|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|2114|2133|physicsCalculations|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|2135|2138|pos|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|pos|1
+   Method End: getTorqueInGlobal(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+   Method Start: createNewTileEntity(Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|2254|2261|worldIn|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|createNewTileEntity|(Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;|worldIn|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|2267|2271|meta|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|createNewTileEntity|(Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;|meta|1
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|2217|2227|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|2228|2247|createNewTileEntity|method|net.minecraft.block.ITileEntityProvider|createNewTileEntity|(Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|2248|2253|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|2295|2327|TileEntityLargeGyroscopeDampener|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|false
+   Method End: createNewTileEntity(Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;
+   Method Start: getBlockSortingIndex()I
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java|2356|2376|getBlockSortingIndex|method|org.valkyrienskies.mod.common.block.IBlockTorqueProvider|getBlockSortingIndex|()I
+   Method End: getBlockSortingIndex()I
+Class End  : com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener
+endProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java"
+
+startProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java" md5: 2d91bf4e6cfd28413b6c6cfdee68761e
+@|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|8|39|com.ice2670.plasmaengine.blocks|package|com.ice2670.plasmaengine.blocks|(file)
+Class Start: com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer
+   @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|915|944|BlockLargeGyroscopeStabilizer|class|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|false
+   @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|953|962|BlockBase|class|com.ice2670.plasmaengine.blocks.BlockBase|false
+   @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|974|993|ITileEntityProvider|class|net.minecraft.block.ITileEntityProvider|false
+   @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|995|1015|IBlockTorqueProvider|class|org.valkyrienskies.mod.common.block.IBlockTorqueProvider|false
+   Method Start: BlockLargeGyroscopeStabilizer(Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1068|1072|name|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|BlockLargeGyroscopeStabilizer|(Ljava/lang/String;)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1031|1060|BlockLargeGyroscopeStabilizer|method|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|BlockLargeGyroscopeStabilizer|(Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1061|1067|String|class|java.lang.String|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1096|1100|name|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|BlockLargeGyroscopeStabilizer|(Ljava/lang/String;)V|name|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1102|1110|Material|class|net.minecraft.block.material.Material|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1111|1115|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1127|1141|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1142|1159|ValkyrienSkiesMod|class|org.valkyrienskies.mod.common.ValkyrienSkiesMod|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1160|1175|VS_CREATIVE_TAB|field|org.valkyrienskies.mod.common.ValkyrienSkiesMod|VS_CREATIVE_TAB
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1187|1199|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1200|1209|SoundType|class|net.minecraft.block.SoundType|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1210|1215|METAL|field|net.minecraft.block.SoundType|METAL
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1227|1238|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1256|1269|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1287|1302|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+   Method End: BlockLargeGyroscopeStabilizer(Ljava/lang/String;)V
+   Method Start: createNewTileEntity(Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1643|1650|worldIn|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|createNewTileEntity|(Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;|worldIn|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1656|1660|meta|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|createNewTileEntity|(Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;|meta|1
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1606|1616|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1617|1636|createNewTileEntity|method|net.minecraft.block.ITileEntityProvider|createNewTileEntity|(Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1637|1642|World|class|net.minecraft.world.World|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1684|1718|TileEntityLargeGyroscopeStabilizer|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|false
+   Method End: createNewTileEntity(Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;
+   Method Start: getTorqueInGlobal(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1791|1810|physicsCalculations|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1821|1824|pos|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1743|1752|Vector3dc|class|org.joml.Vector3dc|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1753|1770|getTorqueInGlobal|method|org.valkyrienskies.mod.common.block.IBlockTorqueProvider|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1771|1790|PhysicsCalculations|class|org.valkyrienskies.mod.common.physics.PhysicsCalculations|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1812|1820|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1837|1847|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1859|1873|ValkyrienUtils|class|org.valkyrienskies.mod.common.util.ValkyrienUtils|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1874|1891|getTileEntitySafe|method|org.valkyrienskies.mod.common.util.ValkyrienUtils|getTileEntitySafe|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1892|1911|physicsCalculations|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1912|1921|getParent|method|org.valkyrienskies.mod.common.physics.PhysicsCalculations|getParent|()Lorg/valkyrienskies/mod/common/ships/ship_world/PhysicsObject;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1924|1932|getWorld|method|org.valkyrienskies.mod.common.ships.ship_world.PhysicsObject|getWorld|()Lnet/minecraft/world/World;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1936|1939|pos|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|pos|1
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|1975|2009|TileEntityLargeGyroscopeStabilizer|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|2026|2060|TileEntityLargeGyroscopeStabilizer|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|2078|2112|TileEntityLargeGyroscopeStabilizer|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|false
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|2157|2174|getTorqueInGlobal|method|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|2175|2194|physicsCalculations|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java|2196|2199|pos|param|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|pos|1
+   Method End: getTorqueInGlobal(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+Class End  : com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer
+endProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java"
 
 startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java" md5: cf809336748535c2dba3c78db61dc93a
 @|com/ice2670/plasmaengine/blocks/BlockPlasmaController.java|8|39|com.ice2670.plasmaengine.blocks|package|com.ice2670.plasmaengine.blocks|(file)
@@ -304,7 +419,7 @@ Class Start: com.ice2670.plasmaengine.blocks.BlockPlasmaController
 Class End  : com.ice2670.plasmaengine.blocks.BlockPlasmaController
 endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java"
 
-startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: 6f4ecfe44aae798af26943fd7876dc8b
+startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: 0b1edce56cc7201b2ec93bb1ac485a1d
 @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|8|39|com.ice2670.plasmaengine.blocks|package|com.ice2670.plasmaengine.blocks|(file)
 Class Start: com.ice2670.plasmaengine.blocks.BlockPlasmaEngine
    @|com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java|1250|1267|BlockPlasmaEngine|class|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|false
@@ -563,7 +678,7 @@ Class Start: com.ice2670.plasmaengine.blocks.BlockPlasmaEngine
 Class End  : com.ice2670.plasmaengine.blocks.BlockPlasmaEngine
 endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java"
 
-startProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java" md5: bbd3e8b66164978bd56ff62003d22316
+startProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java" md5: 184f9f572f810e4156bf907afcc82317
 @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|8|39|com.ice2670.plasmaengine.blocks|package|com.ice2670.plasmaengine.blocks|(file)
 Class Start: com.ice2670.plasmaengine.blocks.BlockTemperedGlass
    @|com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java|439|457|BlockTemperedGlass|class|com.ice2670.plasmaengine.blocks.BlockTemperedGlass|false
@@ -602,7 +717,7 @@ Class Start: com.ice2670.plasmaengine.blocks.BlockTemperedGlass
 Class End  : com.ice2670.plasmaengine.blocks.BlockTemperedGlass
 endProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java"
 
-startProcessing "com/ice2670/plasmaengine/init/BlockInit.java" md5: 26932c3bf7c7ace5220643b0043390c0
+startProcessing "com/ice2670/plasmaengine/init/BlockInit.java" md5: cba19c895fa3b9118659e3d2c7c391c7
 @|com/ice2670/plasmaengine/init/BlockInit.java|8|37|com.ice2670.plasmaengine.init|package|com.ice2670.plasmaengine.init|(file)
 Class Start: com.ice2670.plasmaengine.init.BlockInit
    @|com/ice2670/plasmaengine/init/BlockInit.java|236|245|BlockInit|class|com.ice2670.plasmaengine.init.BlockInit|false
@@ -625,6 +740,14 @@ Class Start: com.ice2670.plasmaengine.init.BlockInit
    @|com/ice2670/plasmaengine/init/BlockInit.java|551|556|Block|class|net.minecraft.block.Block|false
    @|com/ice2670/plasmaengine/init/BlockInit.java|557|575|BLOCK_PLASMAENGINE|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_PLASMAENGINE|
    @|com/ice2670/plasmaengine/init/BlockInit.java|582|599|BlockPlasmaEngine|class|com.ice2670.plasmaengine.blocks.BlockPlasmaEngine|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|645|650|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|645|650|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|651|681|BLOCK_LargeGyroscopeStabilizer|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_LargeGyroscopeStabilizer|
+   @|com/ice2670/plasmaengine/init/BlockInit.java|688|717|BlockLargeGyroscopeStabilizer|class|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeStabilizer|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|779|784|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|779|784|Block|class|net.minecraft.block.Block|false
+   @|com/ice2670/plasmaengine/init/BlockInit.java|785|813|BLOCK_LargeGyroscopeDampener|field|com.ice2670.plasmaengine.init.BlockInit|BLOCK_LargeGyroscopeDampener|
+   @|com/ice2670/plasmaengine/init/BlockInit.java|820|847|BlockLargeGyroscopeDampener|class|com.ice2670.plasmaengine.blocks.BlockLargeGyroscopeDampener|false
 Class End  : com.ice2670.plasmaengine.init.BlockInit
 endProcessing "com/ice2670/plasmaengine/init/BlockInit.java"
 
@@ -715,6 +838,122 @@ Class Start: com.ice2670.plasmaengine.proxy.CommonProxy
    Method End: registerEntityRenders()V
 Class End  : com.ice2670.plasmaengine.proxy.CommonProxy
 endProcessing "com/ice2670/plasmaengine/proxy/CommonProxy.java"
+
+startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java" md5: 1e8d8a5a42fbccbfe114a55b2313040f
+@|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|8|45|com.ice2670.plasmaengine.tileentities|package|com.ice2670.plasmaengine.tileentities|(file)
+Class Start: com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|318|350|TileEntityLargeGyroscopeDampener|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|359|369|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|399|408|Vector3dc|class|org.joml.Vector3dc|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|399|408|Vector3dc|class|org.joml.Vector3dc|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|409|419|GRAVITY_UP|field|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|GRAVITY_UP|
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|426|434|Vector3d|class|org.joml.Vector3d|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|474|487|maximumTorque|field|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|maximumTorque|
+   Method Start: TileEntityLargeGyroscopeDampener()V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|515|547|TileEntityLargeGyroscopeDampener|method|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|TileEntityLargeGyroscopeDampener|()V
+   Method End: TileEntityLargeGyroscopeDampener()V
+   Method Start: getTorqueInGlobal(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|621|640|physicsCalculations|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|651|654|pos|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|pos|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|573|582|Vector3dc|class|org.joml.Vector3dc|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|583|600|getTorqueInGlobal|method|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|601|620|PhysicsCalculations|class|org.valkyrienskies.mod.common.physics.PhysicsCalculations|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|642|650|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|667|675|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|698|706|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|707|717|GRAVITY_UP|field|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|GRAVITY_UP
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|729|748|physicsCalculations|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|749|758|getParent|method|org.valkyrienskies.mod.common.physics.PhysicsCalculations|getParent|()Lorg/valkyrienskies/mod/common/ships/ship_world/PhysicsObject;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|761|789|getShipTransformationManager|method|org.valkyrienskies.mod.common.ships.ship_world.PhysicsObject|getShipTransformationManager|()Lorg/valkyrienskies/mod/common/ships/ship_transform/ShipTransformationManager;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|792|818|getCurrentPhysicsTransform|method|org.valkyrienskies.mod.common.ships.ship_transform.ShipTransformationManager|getCurrentPhysicsTransform|()Lorg/valkyrienskies/mod/common/ships/ship_transform/ShipTransform;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|821|839|transformDirection|method|org.valkyrienskies.mod.common.ships.ship_transform.ShipTransform|transformDirection|(Lorg/joml/Vector3d;Lvalkyrienwarfare/api/TransformType;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|857|870|TransformType|class|valkyrienwarfare.api.TransformType|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|871|889|SUBSPACE_TO_GLOBAL|field|valkyrienwarfare.api.TransformType|SUBSPACE_TO_GLOBAL
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|917|920|dot|method|org.joml.Vector3dc|dot|(Lorg/joml/Vector3dc;)D
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|925|933|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|934|953|physicsCalculations|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|954|972|getAngularVelocity|method|org.valkyrienskies.mod.common.physics.PhysicsCalculations|getAngularVelocity|()Lorg/joml/Vector3d;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|987|995|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1035|1038|mul|method|org.joml.Vector3dc|mul|(DLorg/joml/Vector3d;)Lorg/joml/Vector3d;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1055|1058|dot|method|org.joml.Vector3dc|dot|(Lorg/joml/Vector3dc;)D
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1063|1071|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1072|1091|physicsCalculations|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1092|1110|getAngularVelocity|method|org.valkyrienskies.mod.common.physics.PhysicsCalculations|getAngularVelocity|()Lorg/joml/Vector3d;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1120|1128|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1142|1150|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1180|1188|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1189|1208|physicsCalculations|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1209|1227|getAngularVelocity|method|org.valkyrienskies.mod.common.physics.PhysicsCalculations|getAngularVelocity|()Lorg/joml/Vector3d;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1232|1235|sub|method|org.joml.Vector3d|sub|(Lorg/joml/Vector3dc;)Lorg/joml/Vector3d;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1268|1276|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1315|1318|mul|method|org.joml.Vector3d|mul|(D)Lorg/joml/Vector3d;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1319|1338|physicsCalculations|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1339|1369|getPhysicsTimeDeltaPerPhysTick|method|org.valkyrienskies.mod.common.physics.PhysicsCalculations|getPhysicsTimeDeltaPerPhysTick|()D
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1383|1391|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1428|1447|physicsCalculations|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1448|1464|getPhysMOITensor|method|org.valkyrienskies.mod.common.physics.PhysicsCalculations|getPhysMOITensor|()Lorg/joml/Matrix3dc;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1467|1476|transform|method|org.joml.Matrix3dc|transform|(Lorg/joml/Vector3d;)Lorg/joml/Vector3d;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1575|1581|length|method|org.joml.Vector3dc|length|()D
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1635|1648|maximumTorque|field|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|maximumTorque
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1699|1702|mul|method|org.joml.Vector3d|mul|(D)Lorg/joml/Vector3d;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1708|1721|maximumTorque|field|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|maximumTorque
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java|1819|1822|mul|method|org.joml.Vector3d|mul|(D)Lorg/joml/Vector3d;
+   Method End: getTorqueInGlobal(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+Class End  : com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener
+endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java"
+
+startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java" md5: e23f887009778d20fdce7da0930dcf55
+@|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|8|45|com.ice2670.plasmaengine.tileentities|package|com.ice2670.plasmaengine.tileentities|(file)
+Class Start: com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|318|352|TileEntityLargeGyroscopeStabilizer|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|361|371|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|407|421|MAXIMUM_TORQUE|field|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|MAXIMUM_TORQUE|
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|462|471|Vector3dc|class|org.joml.Vector3dc|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|462|471|Vector3dc|class|org.joml.Vector3dc|false
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|472|482|GRAVITY_UP|field|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|GRAVITY_UP|
+   @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|489|497|Vector3d|class|org.joml.Vector3d|false
+   Method Start: TileEntityLargeGyroscopeStabilizer()V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|531|565|TileEntityLargeGyroscopeStabilizer|method|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|TileEntityLargeGyroscopeStabilizer|()V
+   Method End: TileEntityLargeGyroscopeStabilizer()V
+   Method Start: getTorqueInGlobal(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|640|659|physicsCalculations|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|670|673|pos|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|pos|1
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|592|601|Vector3dc|class|org.joml.Vector3dc|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|602|619|getTorqueInGlobal|method|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|620|639|PhysicsCalculations|class|org.valkyrienskies.mod.common.physics.PhysicsCalculations|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|661|669|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|686|694|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|717|725|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|726|736|GRAVITY_UP|field|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|GRAVITY_UP
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|748|767|physicsCalculations|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|768|777|getParent|method|org.valkyrienskies.mod.common.physics.PhysicsCalculations|getParent|()Lorg/valkyrienskies/mod/common/ships/ship_world/PhysicsObject;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|780|808|getShipTransformationManager|method|org.valkyrienskies.mod.common.ships.ship_world.PhysicsObject|getShipTransformationManager|()Lorg/valkyrienskies/mod/common/ships/ship_transform/ShipTransformationManager;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|811|837|getCurrentPhysicsTransform|method|org.valkyrienskies.mod.common.ships.ship_transform.ShipTransformationManager|getCurrentPhysicsTransform|()Lorg/valkyrienskies/mod/common/ships/ship_transform/ShipTransform;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|840|858|transformDirection|method|org.valkyrienskies.mod.common.ships.ship_transform.ShipTransform|transformDirection|(Lorg/joml/Vector3d;Lvalkyrienwarfare/api/TransformType;)V
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|876|889|TransformType|class|valkyrienwarfare.api.TransformType|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|890|908|SUBSPACE_TO_GLOBAL|field|valkyrienwarfare.api.TransformType|SUBSPACE_TO_GLOBAL
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|920|928|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|941|951|GRAVITY_UP|field|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|GRAVITY_UP
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|952|957|cross|method|org.joml.Vector3dc|cross|(Lorg/joml/Vector3dc;Lorg/joml/Vector3d;)Lorg/joml/Vector3d;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|979|987|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1015|1028|lengthSquared|method|org.joml.Vector3dc|lengthSquared|()D
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1141|1149|Vector3d|class|org.joml.Vector3d|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1197|1201|Math|class|java.lang.Math|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1202|1211|toDegrees|method|java.lang.Math|toDegrees|(D)D
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1212|1222|GRAVITY_UP|field|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|GRAVITY_UP
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1223|1228|angle|method|org.joml.Vector3dc|angle|(Lorg/joml/Vector3dc;)D
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1267|1276|normalize|method|org.joml.Vector3d|normalize|()Lorg/joml/Vector3d;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1366|1370|Math|class|java.lang.Math|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1371|1374|max|method|java.lang.Math|max|(DD)D
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1375|1379|Math|class|java.lang.Math|false
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1380|1383|min|method|java.lang.Math|min|(DD)D
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1443|1446|mul|method|org.joml.Vector3d|mul|(D)Lorg/joml/Vector3d;
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1447|1461|MAXIMUM_TORQUE|field|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|MAXIMUM_TORQUE
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1484|1503|physicsCalculations|param|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|getTorqueInGlobal|(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;|physicsCalculations|0
+      @|com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java|1504|1534|getPhysicsTimeDeltaPerPhysTick|method|org.valkyrienskies.mod.common.physics.PhysicsCalculations|getPhysicsTimeDeltaPerPhysTick|()D
+   Method End: getTorqueInGlobal(Lorg/valkyrienskies/mod/common/physics/PhysicsCalculations;Lnet/minecraft/util/math/BlockPos;)Lorg/joml/Vector3dc;
+Class End  : com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer
+endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java"
 
 startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java" md5: 4b8399457525c40df0856d91ebbd4cbd
 @|com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java|8|45|com.ice2670.plasmaengine.tileentities|package|com.ice2670.plasmaengine.tileentities|(file)
@@ -995,7 +1234,7 @@ Class Start: com.ice2670.plasmaengine.util.IHasModel
 Class End  : com.ice2670.plasmaengine.util.IHasModel
 endProcessing "com/ice2670/plasmaengine/util/IHasModel.java"
 
-startProcessing "com/ice2670/plasmaengine/util/Reference.java" md5: 633ca64044aeeec8e4181b8300eb547d
+startProcessing "com/ice2670/plasmaengine/util/Reference.java" md5: 508c4c35bb3fb90e3e2a8a8d25bd9e83
 @|com/ice2670/plasmaengine/util/Reference.java|8|37|com.ice2670.plasmaengine.util|package|com.ice2670.plasmaengine.util|(file)
 Class Start: com.ice2670.plasmaengine.util.Reference
    @|com/ice2670/plasmaengine/util/Reference.java|101|110|Reference|class|com.ice2670.plasmaengine.util.Reference|false
@@ -1008,12 +1247,12 @@ Class Start: com.ice2670.plasmaengine.util.Reference
    @|com/ice2670/plasmaengine/util/Reference.java|250|256|String|class|java.lang.String|false
    @|com/ice2670/plasmaengine/util/Reference.java|250|256|String|class|java.lang.String|false
    @|com/ice2670/plasmaengine/util/Reference.java|257|264|VERSION|field|com.ice2670.plasmaengine.util.Reference|VERSION|
-   @|com/ice2670/plasmaengine/util/Reference.java|299|305|String|class|java.lang.String|false
-   @|com/ice2670/plasmaengine/util/Reference.java|299|305|String|class|java.lang.String|false
-   @|com/ice2670/plasmaengine/util/Reference.java|306|312|CLIENT|field|com.ice2670.plasmaengine.util.Reference|CLIENT|
-   @|com/ice2670/plasmaengine/util/Reference.java|386|392|String|class|java.lang.String|false
-   @|com/ice2670/plasmaengine/util/Reference.java|386|392|String|class|java.lang.String|false
-   @|com/ice2670/plasmaengine/util/Reference.java|393|399|COMMON|field|com.ice2670.plasmaengine.util.Reference|COMMON|
+   @|com/ice2670/plasmaengine/util/Reference.java|301|307|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|301|307|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|308|314|CLIENT|field|com.ice2670.plasmaengine.util.Reference|CLIENT|
+   @|com/ice2670/plasmaengine/util/Reference.java|388|394|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|388|394|String|class|java.lang.String|false
+   @|com/ice2670/plasmaengine/util/Reference.java|395|401|COMMON|field|com.ice2670.plasmaengine.util.Reference|COMMON|
 Class End  : com.ice2670.plasmaengine.util.Reference
 endProcessing "com/ice2670/plasmaengine/util/Reference.java"
 
@@ -1087,18 +1326,24 @@ Class Start: com.ice2670.plasmaengine.util.handlers.RegistryHandler
 Class End  : com.ice2670.plasmaengine.util.handlers.RegistryHandler
 endProcessing "com/ice2670/plasmaengine/util/handlers/RegistryHandler.java"
 
-startProcessing "com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java" md5: c47b72ab6dffd1e506524f3bc5d9f69a
+startProcessing "com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java" md5: b26f44dfba092da4b55ef07b810e1e8a
 @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|8|46|com.ice2670.plasmaengine.util.handlers|package|com.ice2670.plasmaengine.util.handlers|(file)
 Class Start: com.ice2670.plasmaengine.util.handlers.TileEntityHandler
-   @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|314|331|TileEntityHandler|class|com.ice2670.plasmaengine.util.handlers.TileEntityHandler|false
+   @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|476|493|TileEntityHandler|class|com.ice2670.plasmaengine.util.handlers.TileEntityHandler|false
    Method Start: registerTileEntities()V
-      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|360|380|registerTileEntities|method|com.ice2670.plasmaengine.util.handlers.TileEntityHandler|registerTileEntities|()V
-      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|399|411|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
-      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|412|430|registerTileEntity|method|net.minecraftforge.fml.common.registry.GameRegistry|registerTileEntity|(Ljava/lang/Class;Ljava/lang/String;)V
-      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|431|453|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
-      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|497|509|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
-      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|510|528|registerTileEntity|method|net.minecraftforge.fml.common.registry.GameRegistry|registerTileEntity|(Ljava/lang/Class;Ljava/lang/String;)V
-      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|529|552|TileEntityPlasmaControl|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|false
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|522|542|registerTileEntities|method|com.ice2670.plasmaengine.util.handlers.TileEntityHandler|registerTileEntities|()V
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|561|573|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|574|592|registerTileEntity|method|net.minecraftforge.fml.common.registry.GameRegistry|registerTileEntity|(Ljava/lang/Class;Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|593|615|TileEntityPlasmaEngine|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine|false
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|659|671|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|672|690|registerTileEntity|method|net.minecraftforge.fml.common.registry.GameRegistry|registerTileEntity|(Ljava/lang/Class;Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|691|714|TileEntityPlasmaControl|class|com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl|false
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|759|771|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|772|790|registerTileEntity|method|net.minecraftforge.fml.common.registry.GameRegistry|registerTileEntity|(Ljava/lang/Class;Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|791|825|TileEntityLargeGyroscopeStabilizer|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer|false
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|881|893|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|894|912|registerTileEntity|method|net.minecraftforge.fml.common.registry.GameRegistry|registerTileEntity|(Ljava/lang/Class;Ljava/lang/String;)V
+      @|com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java|913|945|TileEntityLargeGyroscopeDampener|class|com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener|false
    Method End: registerTileEntities()V
 Class End  : com.ice2670.plasmaengine.util.handlers.TileEntityHandler
 endProcessing "com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java"

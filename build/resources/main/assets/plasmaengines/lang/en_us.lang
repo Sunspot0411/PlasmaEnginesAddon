@@ -1,5 +1,7 @@
 tile.plasma_controller.name=Plasma Controller
 tile.plasma_engine.name=Plasma Engine
 tile.tempered_glass.name=Tempered Glass
+tile.enhanced_gyroscope_dampener.name=Enhanced Gyroscope Dampener
+tile.enhanced_gyroscope_stabilizer.name=Enhanced Gyroscope Stabilizer
 
 

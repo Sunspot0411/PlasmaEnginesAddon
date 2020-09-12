@@ -38,7 +38,7 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider
         super(name, Material.IRON);
         setSoundType(SoundType.METAL);
         setHardness(500.0F);
-        setResistance(140.0F);
+        setResistance(380.0F);
         setHarvestLevel("pickaxe", 3);
         setLightLevel(1.0F);
 

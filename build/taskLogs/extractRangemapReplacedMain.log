@@ -1,23 +1,29 @@
 Unsupposrted library path: D:\Minecraft Modding\PlasmaEnginesAddon\build\classes\api
 Unsupposrted library path: D:\Minecraft Modding\PlasmaEnginesAddon\build\resources\api
 Symbol range map extraction starting
-Processing 15 files
+Processing 19 files
 startProcessing "com/ice2670/plasmaengine/Main.java" md5: db07340e6c88c5d18e234132954e143e
 endProcessing "com/ice2670/plasmaengine/Main.java"
 
 startProcessing "com/ice2670/plasmaengine/blocks/BlockBase.java" md5: 2c4faf523a024d4d52dfa91dbf4bbd89
 endProcessing "com/ice2670/plasmaengine/blocks/BlockBase.java"
 
+startProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java" md5: 6c507979849338aad1f022293fb88d2a
+endProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java"
+
+startProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java" md5: 2d91bf4e6cfd28413b6c6cfdee68761e
+endProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java"
+
 startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java" md5: cf809336748535c2dba3c78db61dc93a
 endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java"
 
-startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: 6f4ecfe44aae798af26943fd7876dc8b
+startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: 0b1edce56cc7201b2ec93bb1ac485a1d
 endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java"
 
-startProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java" md5: bbd3e8b66164978bd56ff62003d22316
+startProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java" md5: 184f9f572f810e4156bf907afcc82317
 endProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java"
 
-startProcessing "com/ice2670/plasmaengine/init/BlockInit.java" md5: 26932c3bf7c7ace5220643b0043390c0
+startProcessing "com/ice2670/plasmaengine/init/BlockInit.java" md5: cba19c895fa3b9118659e3d2c7c391c7
 endProcessing "com/ice2670/plasmaengine/init/BlockInit.java"
 
 startProcessing "com/ice2670/plasmaengine/init/ItemInit.java" md5: 3e9da01c59a12580c754c0a400338fdb
@@ -29,6 +35,12 @@ endProcessing "com/ice2670/plasmaengine/proxy/ClientProxy.java"
 startProcessing "com/ice2670/plasmaengine/proxy/CommonProxy.java" md5: ccd9de011159dff50749395ff9aef4d0
 endProcessing "com/ice2670/plasmaengine/proxy/CommonProxy.java"
 
+startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java" md5: 1e8d8a5a42fbccbfe114a55b2313040f
+endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java"
+
+startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java" md5: e23f887009778d20fdce7da0930dcf55
+endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java"
+
 startProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java" md5: 4b8399457525c40df0856d91ebbd4cbd
 endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java"
 
@@ -38,12 +50,12 @@ endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java
 startProcessing "com/ice2670/plasmaengine/util/IHasModel.java" md5: ecd6d4f658e17cdc365be641bf5ab234
 endProcessing "com/ice2670/plasmaengine/util/IHasModel.java"
 
-startProcessing "com/ice2670/plasmaengine/util/Reference.java" md5: 633ca64044aeeec8e4181b8300eb547d
+startProcessing "com/ice2670/plasmaengine/util/Reference.java" md5: 508c4c35bb3fb90e3e2a8a8d25bd9e83
 endProcessing "com/ice2670/plasmaengine/util/Reference.java"
 
 startProcessing "com/ice2670/plasmaengine/util/handlers/RegistryHandler.java" md5: 9bd177aacb848c0eb383355358e50c2c
 endProcessing "com/ice2670/plasmaengine/util/handlers/RegistryHandler.java"
 
-startProcessing "com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java" md5: c47b72ab6dffd1e506524f3bc5d9f69a
+startProcessing "com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java" md5: b26f44dfba092da4b55ef07b810e1e8a
 endProcessing "com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java"
 

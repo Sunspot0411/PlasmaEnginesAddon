@@ -1,4 +1,4 @@
-Processing 15 files
+Processing 19 files
 Start Processing: com/ice2670/plasmaengine/Main.java
 Import: com.ice2670.plasmaengine.proxy.CommonProxy
 Import: com.ice2670.plasmaengine.util.Reference
@@ -30,6 +30,61 @@ Import: net.minecraft.item.Item
 Import: net.minecraft.item.ItemBlock
 Import: org.valkyrienskies.mod.common.ValkyrienSkiesMod
 End  Processing: com/ice2670/plasmaengine/blocks/BlockBase.java
+
+Start Processing: com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java
+FOUND CONSTR method com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener/BlockLargeGyroscopeDampener (Ljava/lang/String;)V com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener
+Rename field net/minecraft/block/material/Material/IRON[1186,1190]::IRON->field_151573_f
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1212,1226]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1271,1283]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1295,1300]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1321,1332]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1352,1365]::setResistance->func_149752_b
+Rename method net/minecraft/block/ITileEntityProvider/createNewTileEntity (Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;[2249,2268]::createNewTileEntity->func_149915_a
+Import: com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener
+Import: net.minecraft.block.ITileEntityProvider
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.client.resources.I18n
+Import: net.minecraft.client.util.ITooltipFlag
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.text.TextFormatting
+Import: net.minecraft.world.World
+Import: org.joml.Vector3dc
+Import: org.valkyrienskies.addon.control.tileentity.TileEntityGyroscopeDampener
+Import: org.valkyrienskies.mod.common.ValkyrienSkiesMod
+Import: org.valkyrienskies.mod.common.block.IBlockTorqueProvider
+Import: org.valkyrienskies.mod.common.physics.PhysicsCalculations
+Import: org.valkyrienskies.mod.common.util.ValkyrienUtils
+End  Processing: com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java
+
+Start Processing: com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java
+FOUND CONSTR method com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer/BlockLargeGyroscopeStabilizer (Ljava/lang/String;)V com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer
+Rename field net/minecraft/block/material/Material/IRON[1111,1115]::IRON->field_151573_f
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1137,1151]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1196,1208]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1220,1225]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1246,1257]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1277,1290]::setResistance->func_149752_b
+Rename method net/minecraft/block/ITileEntityProvider/createNewTileEntity (Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;[1638,1657]::createNewTileEntity->func_149915_a
+Import: com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer
+Import: net.minecraft.block.ITileEntityProvider
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.client.resources.I18n
+Import: net.minecraft.client.util.ITooltipFlag
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.text.TextFormatting
+Import: net.minecraft.world.World
+Import: org.joml.Vector3dc
+Import: org.valkyrienskies.mod.common.ValkyrienSkiesMod
+Import: org.valkyrienskies.mod.common.block.IBlockTorqueProvider
+Import: org.valkyrienskies.mod.common.physics.PhysicsCalculations
+Import: org.valkyrienskies.mod.common.util.ValkyrienUtils
+End  Processing: com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java
 
 Start Processing: com/ice2670/plasmaengine/blocks/BlockPlasmaController.java
 Rename method net/minecraft/block/properties/PropertyDirection/create (Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyDirection;[944,950]::create->func_177714_a
@@ -189,6 +244,26 @@ Start Processing: com/ice2670/plasmaengine/proxy/CommonProxy.java
 Import: net.minecraft.item.Item
 End  Processing: com/ice2670/plasmaengine/proxy/CommonProxy.java
 
+Start Processing: com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java
+FOUND CONSTR method com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener/TileEntityLargeGyroscopeDampener ()V com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.util.math.BlockPos
+Import: org.joml.Vector3d
+Import: org.joml.Vector3dc
+Import: org.valkyrienskies.mod.common.physics.PhysicsCalculations
+Import: valkyrienwarfare.api.TransformType
+End  Processing: com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeDampener.java
+
+Start Processing: com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java
+FOUND CONSTR method com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer/TileEntityLargeGyroscopeStabilizer ()V com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.util.math.BlockPos
+Import: org.joml.Vector3d
+Import: org.joml.Vector3dc
+Import: org.valkyrienskies.mod.common.physics.PhysicsCalculations
+Import: valkyrienwarfare.api.TransformType
+End  Processing: com/ice2670/plasmaengine/tileentities/TileEntityLargeGyroscopeStabilizer.java
+
 Start Processing: com/ice2670/plasmaengine/tileentities/TileEntityPlasmaControl.java
 Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[515,526]::readFromNBT->func_145839_a
 Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[565,576]::readFromNBT->func_145839_a
@@ -305,6 +380,8 @@ Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
 End  Processing: com/ice2670/plasmaengine/util/handlers/RegistryHandler.java
 
 Start Processing: com/ice2670/plasmaengine/util/handlers/TileEntityHandler.java
+Import: com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeDampener
+Import: com.ice2670.plasmaengine.tileentities.TileEntityLargeGyroscopeStabilizer
 Import: com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl
 Import: com.ice2670.plasmaengine.tileentities.TileEntityPlasmaEngine
 Import: net.minecraftforge.fml.common.registry.GameRegistry
