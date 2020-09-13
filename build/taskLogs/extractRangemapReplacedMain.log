@@ -17,10 +17,10 @@ endProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.jav
 startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java" md5: cf809336748535c2dba3c78db61dc93a
 endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java"
 
-startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: 0b1edce56cc7201b2ec93bb1ac485a1d
+startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: cc5a7480787c0c60000e7f2b2b267217
 endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java"
 
-startProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java" md5: 184f9f572f810e4156bf907afcc82317
+startProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java" md5: 8c563acb72d632cbe166054d76aaa9bc
 endProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java"
 
 startProcessing "com/ice2670/plasmaengine/init/BlockInit.java" md5: cba19c895fa3b9118659e3d2c7c391c7

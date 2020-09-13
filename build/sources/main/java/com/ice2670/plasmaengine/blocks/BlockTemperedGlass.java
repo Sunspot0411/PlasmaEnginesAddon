@@ -17,8 +17,8 @@ public class BlockTemperedGlass extends BlockBase {
         super(name, Material.GLASS);
         setCreativeTab(ValkyrienSkiesMod.VS_CREATIVE_TAB);
         setSoundType(SoundType.GLASS);
-        setHardness(201.0F);
-        setResistance(380.0F);
+        setHardness(402.0F);
+        setResistance(500.0F);
         setHarvestLevel("pickaxe", 3);
     }
 
