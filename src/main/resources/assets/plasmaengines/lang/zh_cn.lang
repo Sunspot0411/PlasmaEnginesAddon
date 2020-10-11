@@ -1,4 +1,12 @@
+item.item_plasmaengine.name=等离子引擎(放置)
+tooltip.plasmaengines.item_plasmaengine_1=右击萤石以放置。在后面放置等离子控制器可以增加推力， 最多可以放置19个
+tooltip.plasmaengines.item_plasmaengine_2=一旦放置难以移除！ 用萤石设计好引擎布置以后再放置
+item.item_temperedglass.name=钢化玻璃(放置)
+tooltip.plasmaengines.item_temperedglass_1=右击玻璃方块以放置
+tooltip.plasmaengines.item_temperedglass_2=一旦放置难以移除！ 设计好飞船以后再放置
+
 tile.plasma_controller.name=等离子控制器
+tooltip.plasmaengines.plasam_controller=放置在等离子引擎之后增加推力， 最多可放置19个
 tile.plasma_engine.name=等离子引擎
 tile.tempered_glass.name=钢化玻璃
 tile.enhanced_gyroscope_dampener.name=强化减震陀螺仪

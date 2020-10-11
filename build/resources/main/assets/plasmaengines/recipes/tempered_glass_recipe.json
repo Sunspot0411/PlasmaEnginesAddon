@@ -20,7 +20,7 @@
     
     "result":
     {
-        "item": "plasmaengines:tempered_glass",
-        "count": 5
+        "item": "plasmaengines:item_temperedglass",
+        "count": 6
     }
 }

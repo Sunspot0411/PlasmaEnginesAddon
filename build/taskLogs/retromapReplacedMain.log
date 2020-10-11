@@ -1,4 +1,84 @@
-Processing 19 files
+Processing 22 files
+Start Processing: com/ice2670/plasmaengine/Items/ItemBase.java
+FOUND CONSTR method com/ice2670/plasmaengine/Items/ItemBase/ItemBase (Ljava/lang/String;)V com/ice2670/plasmaengine/Items/ItemBase
+Rename method net/minecraft/item/Item/setTranslationKey (Ljava/lang/String;)Lnet/minecraft/item/Item;[380,397]::setTranslationKey->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[441,455]::setCreativeTab->func_77637_a
+Import: com.ice2670.plasmaengine.Main
+Import: com.ice2670.plasmaengine.init.ItemInit
+Import: com.ice2670.plasmaengine.util.IHasModel
+Import: net.minecraft.item.Item
+Import: org.valkyrienskies.mod.common.ValkyrienSkiesMod
+End  Processing: com/ice2670/plasmaengine/Items/ItemBase.java
+
+Start Processing: com/ice2670/plasmaengine/Items/ItemPlasmaEngine.java
+FOUND CONSTR method com/ice2670/plasmaengine/Items/ItemPlasmaEngine/ItemPlasmaEngine (Ljava/lang/String;)V com/ice2670/plasmaengine/Items/ItemPlasmaEngine
+Rename method net/minecraft/item/Item/onItemUse (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Lnet/minecraft/util/EnumActionResult;[997,1006]::onItemUse->func_180614_a
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[1171,1182]::getHeldItem->func_184586_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1215,1228]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1234,1242]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/GLOWSTONE[1260,1269]::GLOWSTONE->field_150426_aN
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z[1309,1322]::setBlockState->func_175656_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1357,1372]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[1373,1385]::withProperty->func_177226_a
+Rename method net/minecraft/item/ItemStack/shrink (I)V[1428,1434]::shrink->func_190918_g
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[1466,1475]::inventory->field_71071_by
+Rename method net/minecraft/entity/player/InventoryPlayer/addItemStackToInventory (Lnet/minecraft/item/ItemStack;)Z[1481,1504]::addItemStackToInventory->func_70441_a
+Rename field net/minecraft/init/Items/GLOWSTONE_DUST[1514,1528]::GLOWSTONE_DUST->field_151114_aO
+Rename method net/minecraft/item/Item/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[1702,1716]::addInformation->func_77624_a
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[1946,1952]::format->func_135052_a
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[2109,2115]::format->func_135052_a
+Import: com.ice2670.plasmaengine.init.BlockInit
+Import: net.minecraft.client.resources.I18n
+Import: net.minecraft.client.util.ITooltipFlag
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.init.Blocks
+Import: net.minecraft.init.Items
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.util.EnumActionResult
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.util.EnumHand
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.text.TextFormatting
+Import: net.minecraft.world.World
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Adding 2 imports
+        java.util.List
+        javax.annotation.Nullable
+End  Processing: com/ice2670/plasmaengine/Items/ItemPlasmaEngine.java
+
+Start Processing: com/ice2670/plasmaengine/Items/ItemTemperedGlass.java
+FOUND CONSTR method com/ice2670/plasmaengine/Items/ItemTemperedGlass/ItemTemperedGlass (Ljava/lang/String;)V com/ice2670/plasmaengine/Items/ItemTemperedGlass
+Rename method net/minecraft/item/Item/onItemUse (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Lnet/minecraft/util/EnumActionResult;[888,897]::onItemUse->func_180614_a
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[1062,1073]::getHeldItem->func_184586_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1106,1119]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1125,1133]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/GLASS[1151,1156]::GLASS->field_150359_w
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z[1199,1212]::setBlockState->func_175656_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1248,1263]::getDefaultState->func_176223_P
+Rename method net/minecraft/item/ItemStack/shrink (I)V[1289,1295]::shrink->func_190918_g
+Rename method net/minecraft/item/Item/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[1474,1488]::addInformation->func_77624_a
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[1718,1724]::format->func_135052_a
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[1882,1888]::format->func_135052_a
+Import: com.ice2670.plasmaengine.init.BlockInit
+Import: net.minecraft.client.resources.I18n
+Import: net.minecraft.client.util.ITooltipFlag
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.init.Blocks
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.util.EnumActionResult
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.util.EnumHand
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.text.TextFormatting
+Import: net.minecraft.world.World
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Adding 2 imports
+        java.util.List
+        javax.annotation.Nullable
+End  Processing: com/ice2670/plasmaengine/Items/ItemTemperedGlass.java
+
 Start Processing: com/ice2670/plasmaengine/Main.java
 Import: com.ice2670.plasmaengine.proxy.CommonProxy
 Import: com.ice2670.plasmaengine.util.Reference
@@ -87,51 +167,60 @@ Import: org.valkyrienskies.mod.common.util.ValkyrienUtils
 End  Processing: com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java
 
 Start Processing: com/ice2670/plasmaengine/blocks/BlockPlasmaController.java
-Rename method net/minecraft/block/properties/PropertyDirection/create (Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyDirection;[944,950]::create->func_177714_a
+Rename method net/minecraft/block/properties/PropertyDirection/create (Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyDirection;[1244,1250]::create->func_177714_a
 FOUND CONSTR method com/ice2670/plasmaengine/blocks/BlockPlasmaController/BlockPlasmaController (Ljava/lang/String;I)V com/ice2670/plasmaengine/blocks/BlockPlasmaController
-Rename field net/minecraft/block/material/Material/IRON[1084,1088]::IRON->field_151573_f
-Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1110,1124]::setCreativeTab->func_149647_a
-Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1169,1181]::setSoundType->func_149672_a
-Rename field net/minecraft/block/SoundType/METAL[1193,1198]::METAL->field_185852_e
-Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1219,1230]::setHardness->func_149711_c
-Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1250,1263]::setResistance->func_149752_b
-Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[1385,1405]::getStateForPlacement->func_180642_a
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1541,1556]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[1557,1569]::withProperty->func_177226_a
-Rename method net/minecraft/util/EnumFacing/getDirectionFromEntityLiving (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/util/EnumFacing;[1590,1618]::getDirectionFromEntityLiving->func_190914_a
-Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[1678,1694]::createBlockState->func_180661_e
-Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[1799,1815]::getStateFromMeta->func_176203_a
+Rename field net/minecraft/block/material/Material/IRON[1384,1388]::IRON->field_151573_f
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1410,1424]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1469,1481]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1493,1498]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1519,1530]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1550,1563]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[1685,1705]::getStateForPlacement->func_180642_a
 Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1841,1856]::getDefaultState->func_176223_P
 Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[1857,1869]::withProperty->func_177226_a
-Rename method net/minecraft/util/EnumFacing/byIndex (I)Lnet/minecraft/util/EnumFacing;[1890,1897]::byIndex->func_82600_a
-Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[1951,1967]::getMetaFromState->func_176201_c
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2009,2017]::getValue->func_177229_b
-Rename method net/minecraft/util/EnumFacing/getIndex ()I[2031,2039]::getIndex->func_176745_a
-Rename method net/minecraft/block/Block/getWeakPower (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I[2353,2365]::getWeakPower->func_180656_a
-Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[2541,2554]::getTileEntity->func_175625_s
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2618,2626]::getValue->func_177229_b
-Rename method net/minecraft/block/Block/canProvidePower (Lnet/minecraft/block/state/IBlockState;)Z[3519,3534]::canProvidePower->func_149744_f
-Rename method net/minecraft/block/Block/getItemDropped (Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;[3753,3767]::getItemDropped->func_180660_a
-Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[3840,3856]::getItemFromBlock->func_150898_a
-Rename method net/minecraft/block/Block/getItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;[3920,3927]::getItem->func_185473_a
+Rename method net/minecraft/util/EnumFacing/getDirectionFromEntityLiving (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/util/EnumFacing;[1890,1918]::getDirectionFromEntityLiving->func_190914_a
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[1978,1994]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[2099,2115]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2141,2156]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2157,2169]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/byIndex (I)Lnet/minecraft/util/EnumFacing;[2190,2197]::byIndex->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[2251,2267]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2309,2317]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[2331,2339]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getWeakPower (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I[2653,2665]::getWeakPower->func_180656_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[2841,2854]::getTileEntity->func_175625_s
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2918,2926]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/canProvidePower (Lnet/minecraft/block/state/IBlockState;)Z[3819,3834]::canProvidePower->func_149744_f
+Rename method net/minecraft/block/Block/getItemDropped (Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;[4053,4067]::getItemDropped->func_180660_a
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[4140,4156]::getItemFromBlock->func_150898_a
+Rename method net/minecraft/block/Block/getItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;[4220,4227]::getItem->func_185473_a
+Rename method net/minecraft/block/Block/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[4423,4437]::addInformation->func_190948_a
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[4668,4674]::format->func_135052_a
 Import: com.ice2670.plasmaengine.init.BlockInit
 Import: com.ice2670.plasmaengine.tileentities.TileEntityPlasmaControl
 Import: net.minecraft.block.SoundType
 Import: net.minecraft.block.material.Material
 Import: net.minecraft.block.properties.PropertyDirection
 Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.client.resources.I18n
+Import: net.minecraft.client.util.ITooltipFlag
 Import: net.minecraft.entity.EntityLivingBase
 Import: net.minecraft.item.Item
 Import: net.minecraft.item.ItemStack
 Import: net.minecraft.tileentity.TileEntity
 Import: net.minecraft.util.EnumFacing
 Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.text.TextFormatting
 Import: net.minecraft.world.IBlockAccess
 Import: net.minecraft.world.World
 Import: net.minecraft.block.state.BlockStateContainer
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
 Import: org.valkyrienskies.mod.common.ValkyrienSkiesMod
-Adding 1 imports
+Adding 3 imports
+        java.util.List
         java.util.Random
+        javax.annotation.Nullable
 End  Processing: com/ice2670/plasmaengine/blocks/BlockPlasmaController.java
 
 Start Processing: com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java
@@ -226,6 +315,9 @@ Adding 2 imports
 End  Processing: com/ice2670/plasmaengine/init/BlockInit.java
 
 Start Processing: com/ice2670/plasmaengine/init/ItemInit.java
+Import: com.ice2670.plasmaengine.Items.*
+Import: com.ice2670.plasmaengine.Items.ItemPlasmaEngine
+Import: com.ice2670.plasmaengine.Items.ItemTemperedGlass
 Import: net.minecraft.item.Item
 Adding 2 imports
         java.util.ArrayList
