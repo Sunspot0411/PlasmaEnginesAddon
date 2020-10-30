@@ -5,7 +5,7 @@ Processing 22 files
 startProcessing "com/ice2670/plasmaengine/Items/ItemBase.java" md5: 9584d76ab03b3e6c4c1987e38cea0617
 endProcessing "com/ice2670/plasmaengine/Items/ItemBase.java"
 
-startProcessing "com/ice2670/plasmaengine/Items/ItemPlasmaEngine.java" md5: 5d3199e67400623b860a58427389b7e3
+startProcessing "com/ice2670/plasmaengine/Items/ItemPlasmaEngine.java" md5: 8afa9a937c971c2ef0cb92188074038d
 endProcessing "com/ice2670/plasmaengine/Items/ItemPlasmaEngine.java"
 
 startProcessing "com/ice2670/plasmaengine/Items/ItemTemperedGlass.java" md5: 7b77ff041f9cde3e870f1c7ebca98138
@@ -23,10 +23,10 @@ endProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeDampener.java"
 startProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java" md5: 2d91bf4e6cfd28413b6c6cfdee68761e
 endProcessing "com/ice2670/plasmaengine/blocks/BlockLargeGyroscopeStabilizer.java"
 
-startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java" md5: 25feb48f58fce0e37ee91c743a8cc991
+startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java" md5: 1e7bedfe8bea46e0eb0b2b6e96e8dfef
 endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaController.java"
 
-startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: f1713bd4606ce769cd88b69e7831741a
+startProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java" md5: 7fbca61d2e781b8309783b485fe88ba1
 endProcessing "com/ice2670/plasmaengine/blocks/BlockPlasmaEngine.java"
 
 startProcessing "com/ice2670/plasmaengine/blocks/BlockTemperedGlass.java" md5: 8c563acb72d632cbe166054d76aaa9bc
@@ -59,7 +59,7 @@ endProcessing "com/ice2670/plasmaengine/tileentities/TileEntityPlasmaEngine.java
 startProcessing "com/ice2670/plasmaengine/util/IHasModel.java" md5: ecd6d4f658e17cdc365be641bf5ab234
 endProcessing "com/ice2670/plasmaengine/util/IHasModel.java"
 
-startProcessing "com/ice2670/plasmaengine/util/Reference.java" md5: 7d27cea21da61708c650657b39e22c48
+startProcessing "com/ice2670/plasmaengine/util/Reference.java" md5: 68b43dfcfe47f9c38470e5b4ccdd8c1d
 endProcessing "com/ice2670/plasmaengine/util/Reference.java"
 
 startProcessing "com/ice2670/plasmaengine/util/handlers/RegistryHandler.java" md5: 9bd177aacb848c0eb383355358e50c2c

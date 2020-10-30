@@ -1,12 +1,12 @@
 item.item_plasmaengine.name=Plasma Engine(Placer)
-tooltip.plasmaengines.item_plasmaengine_1=Right click on a Glowstone to place. Place Plasma Controllers behind to increase thrust, can place 19 at most
+tooltip.plasmaengines.item_plasmaengine_1=Right click on a Glowstone to place. Place Plasma Controllers behind to increase thrust, can place 19 at most. Can be rotated by VS Wrench
 tooltip.plasmaengines.item_plasmaengine_2=Very hard to remove once placed! Design your engine arrangement with Glowstones before transforming them to Plasma Enignes
 item.item_temperedglass.name=Tempered Glass(Placer)
 tooltip.plasmaengines.item_temperedglass_1=Right click on a glass block to place
 tooltip.plasmaengines.item_temperedglass_2=Very hard to remove once placed! Design you ship before placing
 
 tile.plasma_controller.name=Plasma Controller
-tooltip.plasmaengines.plasam_controller=Place behind a Plasma Engine to increase thrust. Can place at most 19 behind a Plasma Enigne
+tooltip.plasmaengines.plasam_controller=Place behind a Plasma Engine to increase thrust. Can place at most 19 behind a Plasma Enigne. Can be rotated by VS Wrench
 tile.plasma_engine.name=Plasma Engine
 tile.tempered_glass.name=Tempered Glass
 tile.enhanced_gyroscope_dampener.name=Enhanced Gyroscope Dampener

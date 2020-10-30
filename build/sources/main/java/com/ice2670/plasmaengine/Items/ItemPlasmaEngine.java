@@ -34,7 +34,7 @@ public class ItemPlasmaEngine extends ItemBase
 
         if (worldIn.getBlockState(pos).getBlock() == Blocks.GLOWSTONE)
         {
-            worldIn.setBlockState(pos, BlockInit.BLOCK_PLASMAENGINE.getDefaultState().withProperty(FACING, facing));
+            worldIn.setBlockState(pos, BlockInit.BLOCK_PLASMAENGINE.getDefaultState().withProperty(FACING, facing.getOpposite()));
             itemstack.shrink(1);
             player.inventory.addItemStackToInventory(new ItemStack(Items.GLOWSTONE_DUST,4));
             return EnumActionResult.SUCCESS;

@@ -20,6 +20,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import org.joml.Vector3d;
 import org.joml.Vector3dc;
+import org.valkyrienskies.addon.control.ValkyrienSkiesControl;
 import org.valkyrienskies.addon.control.nodenetwork.BasicForceNodeTileEntity;
 import org.valkyrienskies.mod.common.block.IBlockForceProvider;
 import org.valkyrienskies.mod.common.ships.ship_world.PhysicsObject;
@@ -113,6 +114,18 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider
         if(tileEntity instanceof TileEntityPlasmaEngine) {
             ((TileEntityPlasmaEngine)tileEntity).displayPower(playerIn);
         }
+
+        ItemStack heldItem = playerIn.getHeldItem(hand);
+
+
+        if (heldItem == null){
+            return false;}
+        else{
+            Item item = heldItem.getItem();
+            if (item == ValkyrienSkiesControl.INSTANCE.vsWrench){
+                worldIn.setBlockState(pos, BlockInit.BLOCK_PLASMAENGINE.getDefaultState().withProperty(FACING, EnumFacing.getDirectionFromEntityLiving(pos, playerIn).getOpposite()));
+            }
+        }
         return true;
     }
 
@@ -138,7 +151,5 @@ public class BlockPlasmaEngine extends BlockBase implements IBlockForceProvider
     {
         return Item.getItemFromBlock(BlockInit.BLOCK_PLASMAENGINE);
     }
-
-
 
 }
